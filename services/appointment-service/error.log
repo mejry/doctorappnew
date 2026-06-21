@@ -1,0 +1,82 @@
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-13 16:37:17"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-13 16:37:43"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-13 16:38:11"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-13 16:40:44"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-13 16:41:33"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-18 19:48:27"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-18 19:55:26"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-18 19:55:47"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-18 19:59:11"}
+{"level":"error","message":"❌ Failed to start auth consumer: rabbitmq.consume is not a function","service":"appointment-service","stack":"TypeError: rabbitmq.consume is not a function\n    at startAuthConsumer (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\services\\authConsumer.js:10:20)\n    at Object.<anonymous> (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\server.js:13:1)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2025-05-18 20:02:51"}
+{"level":"error","message":"JWT verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-18 20:03:13"}
+{"level":"error","message":"JWT verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-18 20:03:34"}
+{"level":"error","message":"JWT verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-18 20:07:08"}
+{"level":"error","message":"JWT verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-18 20:07:35"}
+{"level":"error","message":"Error creating appointment: Cannot read properties of undefined (reading 'APPOINTMENT_CREATED')","service":"appointment-service","stack":"TypeError: Cannot read properties of undefined (reading 'APPOINTMENT_CREATED')\n    at Object.createAppointment (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\services\\appointmentService.js:112:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createAppointment (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\controllers\\appointmentController.js:12:20)","timestamp":"2025-05-18 20:25:48"}
+{"level":"error","message":"Error creating appointment: Cannot read properties of undefined (reading 'APPOINTMENT_CREATED')","service":"appointment-service","stack":"TypeError: Cannot read properties of undefined (reading 'APPOINTMENT_CREATED')\n    at Object.createAppointment (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\services\\appointmentService.js:112:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createAppointment (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\controllers\\appointmentController.js:12:20)","timestamp":"2025-05-18 20:26:24"}
+{"level":"error","message":"Error processing auth message: invalid signature","service":"appointment-service","timestamp":"2025-05-19 12:22:47"}
+{"level":"error","message":"Error processing auth message: invalid signature","service":"appointment-service","timestamp":"2025-05-19 12:27:52"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-21 19:54:17"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-21 19:54:24"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 03:05:36"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:14:36"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:15:18"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:30:00"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:32:51"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:24:32"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:25:09"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:25:32"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:29:18"}
+{"level":"error","message":"Permission denied: User 682f4fc933644607152d7292 (Secretary) does not have permission: delete_user","service":"appointment-service","timestamp":"2025-05-22 18:29:18"}
+{"level":"error","message":"User permissions: [create_appointment, view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 18:29:18"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:32:19"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:40:04"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:41:19"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:41:41"}
+{"level":"error","message":"Permission denied: User 682f535772a772d8f3b2fa50 (Receptionist) does not have permission: delete_user","service":"appointment-service","timestamp":"2025-05-22 18:41:41"}
+{"level":"error","message":"User permissions: [create_appointment, view_appointment, update_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 18:41:41"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:42:35"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:42:43"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:45:59"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:46:16"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:47:18"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:48:04"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 19:34:06"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 19:38:14"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 19:48:09"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-23 14:40:52"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-23 16:09:19"}
+{"level":"error","message":"Error calling AI estimation service:","service":"appointment-service","timestamp":"2025-05-23 16:09:19"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-23 16:11:07"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-23 16:12:06"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-23 16:13:48"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 11:08:38"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 11:09:48"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:35:11"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:42:00"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:43:22"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:43:26"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:43:31"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:43:52"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:46:51"}
+{"level":"error","message":"Permission denied: User 68346f8949689d540bb4bf99 (Doctor) does not have permission: create_appointment","service":"appointment-service","timestamp":"2025-05-26 15:46:51"}
+{"level":"error","message":"User permissions: [view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:46:51"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:48:36"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:49:16"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:49:26"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:52:15"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:52:33"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:54:23"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:54:41"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:54:46"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:54:55"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:09:18"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:09:25"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:09:34"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:09:42"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:10:36"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-21 00:49:02"}

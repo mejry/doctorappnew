@@ -1,0 +1,6 @@
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
+*.model filter=lfs diff=lfs merge=lfs -text
+services/ai-service/models/** filter=lfs diff=lfs merge=lfs -text
+services/ai-service/data/** filter=lfs diff=lfs merge=lfs -text

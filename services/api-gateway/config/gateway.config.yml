@@ -1,0 +1,124 @@
+# gateway.config.yml - VERSION CORRIGÉE COMPLÈTE
+http:
+  port: 8080
+
+admin:
+  port: 9876
+  host: localhost
+
+apiEndpoints:
+  auth:
+    path: '/api/auth/*'
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+  users:
+    path: '/api/users/*'
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+  roles:
+    path: '/api/roles/*'
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+  patients:
+    path: '/api/patients/*'
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+  consultations:
+    path: '/api/consultations/*'
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+  prescriptions:
+    path: '/api/prescriptions/*'
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+  medications:
+    path: '/api/medications/*'
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+  appointments:
+    path: '/api/appointments/*'
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+
+serviceEndpoints:
+  auth:
+    url: 'http://127.0.0.1:4000'
+  patients:
+    url: 'http://127.0.0.1:8002'
+  consultations:
+    url: 'http://127.0.0.1:8003'
+  prescriptions:
+    url: 'http://127.0.0.1:8004'
+  appointments:
+    url: 'http://127.0.0.1:3001'
+
+policies:
+  - basic-auth
+  - cors
+  - expression
+  - key-auth
+  - log
+  - oauth2
+  - proxy
+  - jwt
+  - rate-limit
+  - rewrite
+
+pipelines:
+  default:
+    apiEndpoints:
+      - auth
+      - users
+      - roles
+      - patients
+      - consultations
+      - prescriptions
+      - medications
+      - appointments
+    policies:
+      - cors:
+          - action:
+              origin: '*'
+              methods: 'GET,HEAD,PUT,PATCH,POST,DELETE'
+              allowedHeaders: 'Content-Type,Authorization'
+      - proxy:
+          - condition:
+              name: pathMatch
+              pattern: '/api/auth/*'
+            action:
+              serviceEndpoint: auth
+              changeOrigin: true
+          - condition:
+              name: pathMatch
+              pattern: '/api/users/*'
+            action:
+              serviceEndpoint: auth
+              changeOrigin: true
+          - condition:
+              name: pathMatch
+              pattern: '/api/roles/*'
+            action:
+              serviceEndpoint: auth
+              changeOrigin: true
+          - condition:
+              name: pathMatch
+              pattern: '/api/patients/*'
+            action:
+              serviceEndpoint: patients
+              changeOrigin: true
+          - condition:
+              name: pathMatch
+              pattern: '/api/consultations/*'
+            action:
+              serviceEndpoint: consultations
+              changeOrigin: true
+          - condition:
+              name: pathMatch
+              pattern: '/api/prescriptions/*'
+            action:
+              serviceEndpoint: prescriptions
+              changeOrigin: true
+          - condition:
+              name: pathMatch
+              pattern: '/api/appointments/*'
+            action:
+              serviceEndpoint: appointments
+              changeOrigin: true
+          - condition:
+              name: pathMatch
+              pattern: '/api/medications/*'
+            action:
+              serviceEndpoint: prescriptions
+              changeOrigin: true

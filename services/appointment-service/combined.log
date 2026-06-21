@@ -1,0 +1,1025 @@
+{"level":"info","message":"Connected to MongoDB","service":"appointment-service","timestamp":"2025-05-13 16:12:09"}
+{"level":"info","message":"RabbitMQ connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:12:10"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-13 16:12:10"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-13 16:12:10"}
+{"level":"info","message":"Connected to MongoDB","service":"appointment-service","timestamp":"2025-05-13 16:14:27"}
+{"level":"info","message":"Connected to MongoDB","service":"appointment-service","timestamp":"2025-05-13 16:14:29"}
+{"level":"info","message":"RabbitMQ connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:14:29"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-13 16:14:29"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-13 16:14:29"}
+{"level":"info","message":"Connected to MongoDB","service":"appointment-service","timestamp":"2025-05-13 16:20:52"}
+{"level":"info","message":"RabbitMQ connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:20:52"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-13 16:20:52"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-13 16:20:52"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:21:02"}
+{"level":"info","message":"RabbitMQ connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:21:02"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-13 16:21:02"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-13 16:21:02"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:30:37"}
+{"level":"info","message":"RabbitMQ connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:30:37"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-13 16:30:37"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-13 16:30:37"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:30:42"}
+{"level":"info","message":"RabbitMQ connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:30:42"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-13 16:30:42"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-13 16:30:42"}
+{"level":"info","message":"GET /api/appointments?x-auth-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InRlc3QtZG9jdG9yLWlkIiwibmFtZSI6IlRlc3QgRG9jdG9yIiwicm9sZSI6ImRvY3RvciIsImlhdCI6MTc0NzE0NjY1OCwiZXhwIjoxNzQ3NzUxNDU4fQ.FLCp1N-n3FZi29Of0Vc9O6hLO4dM0QDsAaORzrMSEmM&Content-Type=application/json","service":"appointment-service","timestamp":"2025-05-13 16:34:45"}
+{"level":"info","message":"POST /api/appointments?x-auth-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InRlc3QtZG9jdG9yLWlkIiwibmFtZSI6IlRlc3QgRG9jdG9yIiwicm9sZSI6ImRvY3RvciIsImlhdCI6MTc0NzE0NjY1OCwiZXhwIjoxNzQ3NzUxNDU4fQ.FLCp1N-n3FZi29Of0Vc9O6hLO4dM0QDsAaORzrMSEmM&Content-Type=application/json","service":"appointment-service","timestamp":"2025-05-13 16:34:51"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-13 16:37:17"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-13 16:37:17"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-13 16:37:43"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-13 16:37:43"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-13 16:38:11"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-13 16:38:11"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:40:22"}
+{"level":"info","message":"RabbitMQ connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:40:22"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-13 16:40:22"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-13 16:40:23"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-13 16:40:44"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-13 16:40:44"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:41:24"}
+{"level":"info","message":"RabbitMQ connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:41:24"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-13 16:41:24"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-13 16:41:24"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:41:29"}
+{"level":"info","message":"RabbitMQ connected successfully","service":"appointment-service","timestamp":"2025-05-13 16:41:29"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-13 16:41:29"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-13 16:41:29"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-13 16:41:33"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-13 16:41:33"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 19:40:44"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:40:44"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:40:44"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 19:40:44"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 19:45:20"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:45:20"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 19:45:20"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 19:45:20"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-18 19:45:20"}
+{"level":"info","message":"Token updated for user: 6824a9d75fc8108cd122c073","service":"appointment-service","timestamp":"2025-05-18 19:45:20"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:45:20"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:45:20"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 19:45:20"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-18 19:48:27"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-18 19:48:27"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 19:50:29"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:50:29"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 19:50:29"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 19:50:29"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:50:29"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:50:29"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 19:50:29"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 19:50:41"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:50:41"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 19:50:41"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 19:50:41"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:50:41"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:50:41"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 19:50:41"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 19:50:43"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:50:43"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 19:50:43"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 19:50:43"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:50:43"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:50:43"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 19:50:43"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 19:54:19"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:54:19"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 19:54:19"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 19:54:19"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:54:19"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:54:19"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 19:54:19"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 19:54:32"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 19:54:32"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:54:32"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 19:54:32"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 19:54:32"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:54:32"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 19:54:32"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 19:54:32"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-18 19:55:26"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-18 19:55:26"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-18 19:55:47"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-18 19:55:47"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-18 19:59:11"}
+{"0":"i","1":"n","10":"g","11":"n","12":"a","13":"t","14":"u","15":"r","16":"e","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"s","9":"i","level":"error","message":"Token verification failed:","service":"appointment-service","timestamp":"2025-05-18 19:59:11"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:01:04"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:01:04"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:04"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 20:01:04"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:01:04"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:04"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:04"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:01:04"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:01:11"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:01:11"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:12"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 20:01:12"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:01:12"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:12"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:12"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:01:12"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:01:18"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:01:18"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:18"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 20:01:18"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:01:18"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:19"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:19"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:01:19"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:01:56"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:01:56"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:56"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 20:01:56"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:01:56"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:56"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:01:56"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:01:56"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:02:07"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:02:07"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:02:07"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 20:02:07"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:02:07"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:02:07"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:02:07"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:02:07"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:02:15"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:02:15"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:02:15"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 20:02:15"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:02:15"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:02:15"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:02:15"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:02:15"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:02:37"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:02:37"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:02:37"}
+{"level":"info","message":"Started consuming messages from auth-tokens","service":"appointment-service","timestamp":"2025-05-18 20:02:37"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:02:37"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:02:37"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:02:37"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:02:37"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:02:51"}
+{"level":"error","message":"❌ Failed to start auth consumer: rabbitmq.consume is not a function","service":"appointment-service","stack":"TypeError: rabbitmq.consume is not a function\n    at startAuthConsumer (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\services\\authConsumer.js:10:20)\n    at Object.<anonymous> (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\server.js:13:1)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2025-05-18 20:02:51"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:02:51"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:02:51"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:02:51"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:02:51"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:03:08"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:03:09"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:03:09"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:03:09"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:03:09"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:03:09"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:03:09"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-18 20:03:13"}
+{"level":"error","message":"JWT verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-18 20:03:13"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2025-05-18 20:03:34"}
+{"level":"error","message":"JWT verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-18 20:03:34"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:06:57"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:06:57"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:06:57"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:06:57"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:06:57"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:06:57"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:06:57"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2025-05-18 20:07:08"}
+{"level":"error","message":"JWT verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-18 20:07:08"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2025-05-18 20:07:35"}
+{"level":"error","message":"JWT verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-18 20:07:35"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:13:37"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:13:37"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:13:38"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:13:38"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:13:38"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:13:38"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:13:38"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:18:39"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:18:39"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:18:40"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:18:40"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:18:40"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:18:40"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:18:40"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:19:16"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:19:16"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:19:16"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:19:16"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:19:16"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:19:16"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:19:16"}
+{"level":"info","message":"TokenCache initialized with secret key length: 14","service":"appointment-service","timestamp":"2025-05-18 20:19:31"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:19:31"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:19:31"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:19:31"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:19:31"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:19:31"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:19:31"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-18 20:19:48"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:19:48"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:19:48"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:19:48"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:19:48"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:19:48"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:19:48"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2025-05-18 20:21:13"}
+{"level":"warn","message":"Token debug info - Algorithm: undefined, Type: undefined","service":"appointment-service","timestamp":"2025-05-18 20:21:13"}
+{"level":"warn","message":"Token payload: {\"id\":\"6824a9d75fc8108cd122c073\",\"role\":\"Admin\",\"permissions\":[\"create_user\",\"delete_user\",\"create_role\",\"manage_roles\",\"assign_role\",\"manage_users\",\"view_logs\",\"manage_patients\"],\"iat\":1747590155,\"exp\":1747591055}","service":"appointment-service","timestamp":"2025-05-18 20:21:13"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Token verification skipped for testing!","service":"appointment-service","timestamp":"2025-05-18 20:21:13"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2025-05-18 20:25:40"}
+{"level":"warn","message":"Token debug info - Algorithm: undefined, Type: undefined","service":"appointment-service","timestamp":"2025-05-18 20:25:40"}
+{"level":"warn","message":"Token payload: {\"id\":\"6824a9d75fc8108cd122c073\",\"role\":\"Admin\",\"permissions\":[\"create_user\",\"delete_user\",\"create_role\",\"manage_roles\",\"assign_role\",\"manage_users\",\"view_logs\",\"manage_patients\"],\"iat\":1747590155,\"exp\":1747591055}","service":"appointment-service","timestamp":"2025-05-18 20:25:40"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Token verification skipped for testing!","service":"appointment-service","timestamp":"2025-05-18 20:25:40"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-18 20:25:47"}
+{"level":"warn","message":"Token debug info - Algorithm: undefined, Type: undefined","service":"appointment-service","timestamp":"2025-05-18 20:25:47"}
+{"level":"warn","message":"Token payload: {\"id\":\"6824a9d75fc8108cd122c073\",\"role\":\"Admin\",\"permissions\":[\"create_user\",\"delete_user\",\"create_role\",\"manage_roles\",\"assign_role\",\"manage_users\",\"view_logs\",\"manage_patients\"],\"iat\":1747590155,\"exp\":1747591055}","service":"appointment-service","timestamp":"2025-05-18 20:25:47"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Token verification skipped for testing!","service":"appointment-service","timestamp":"2025-05-18 20:25:47"}
+{"level":"error","message":"Error creating appointment: Cannot read properties of undefined (reading 'APPOINTMENT_CREATED')","service":"appointment-service","stack":"TypeError: Cannot read properties of undefined (reading 'APPOINTMENT_CREATED')\n    at Object.createAppointment (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\services\\appointmentService.js:112:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createAppointment (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\controllers\\appointmentController.js:12:20)","timestamp":"2025-05-18 20:25:48"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-18 20:26:24"}
+{"level":"warn","message":"Token debug info - Algorithm: undefined, Type: undefined","service":"appointment-service","timestamp":"2025-05-18 20:26:24"}
+{"level":"warn","message":"Token payload: {\"id\":\"6824a9d75fc8108cd122c073\",\"role\":\"Admin\",\"permissions\":[\"create_user\",\"delete_user\",\"create_role\",\"manage_roles\",\"assign_role\",\"manage_users\",\"view_logs\",\"manage_patients\"],\"iat\":1747590155,\"exp\":1747591055}","service":"appointment-service","timestamp":"2025-05-18 20:26:24"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Token verification skipped for testing!","service":"appointment-service","timestamp":"2025-05-18 20:26:24"}
+{"level":"error","message":"Error creating appointment: Cannot read properties of undefined (reading 'APPOINTMENT_CREATED')","service":"appointment-service","stack":"TypeError: Cannot read properties of undefined (reading 'APPOINTMENT_CREATED')\n    at Object.createAppointment (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\services\\appointmentService.js:112:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createAppointment (C:\\Users\\azyz\\Desktop\\doctor-app\\doctor-app-system\\services\\appointment-service\\src\\controllers\\appointmentController.js:12:20)","timestamp":"2025-05-18 20:26:24"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-18 20:28:12"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:28:12"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:28:13"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:28:13"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:28:13"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:28:13"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:28:13"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-18 20:30:36"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-18 20:30:36"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:30:36"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-18 20:30:36"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:30:36"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:30:36"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-18 20:30:36"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-18 20:30:41"}
+{"level":"warn","message":"Token debug info - Algorithm: undefined, Type: undefined","service":"appointment-service","timestamp":"2025-05-18 20:30:41"}
+{"level":"warn","message":"Token payload: {\"id\":\"6824a9d75fc8108cd122c073\",\"role\":\"Admin\",\"permissions\":[\"create_user\",\"delete_user\",\"create_role\",\"manage_roles\",\"assign_role\",\"manage_users\",\"view_logs\",\"manage_patients\"],\"iat\":1747590155,\"exp\":1747591055}","service":"appointment-service","timestamp":"2025-05-18 20:30:41"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Token verification skipped for testing!","service":"appointment-service","timestamp":"2025-05-18 20:30:41"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-18 20:32:10"}
+{"level":"warn","message":"Token debug info - Algorithm: undefined, Type: undefined","service":"appointment-service","timestamp":"2025-05-18 20:32:10"}
+{"level":"warn","message":"Token payload: {\"id\":\"6824a9d75fc8108cd122c073\",\"role\":\"Admin\",\"permissions\":[\"create_user\",\"delete_user\",\"create_role\",\"manage_roles\",\"assign_role\",\"manage_users\",\"view_logs\",\"manage_patients\"],\"iat\":1747590155,\"exp\":1747591055}","service":"appointment-service","timestamp":"2025-05-18 20:32:10"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Token verification skipped for testing!","service":"appointment-service","timestamp":"2025-05-18 20:32:10"}
+{"level":"info","message":"Published appointment created event to RabbitMQ","service":"appointment-service","timestamp":"2025-05-18 20:32:10"}
+{"level":"warn","message":"Email service not configured. Email not sent.","service":"appointment-service","timestamp":"2025-05-18 20:32:10"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-18 20:33:15"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-19 11:41:49"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 11:41:49"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:41:49"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:41:49"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:41:49"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 11:41:49"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 11:41:49"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-19 11:42:01"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 11:42:01"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:01"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 11:42:01"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:01"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:01"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 11:42:01"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-19 11:42:14"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 11:42:14"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:14"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 11:42:14"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:14"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:14"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 11:42:14"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-19 11:42:36"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 11:42:36"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:36"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:36"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:36"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 11:42:36"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 11:42:36"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-19 11:42:43"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 11:42:43"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:43"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 11:42:43"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:43"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:42:43"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 11:42:43"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-19 11:43:54"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 11:43:54"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:43:55"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 11:43:55"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:43:55"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:43:55"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 11:43:55"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-19 11:45:31"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 11:45:31"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:45:31"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 11:45:31"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:45:31"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 11:45:31"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 11:45:31"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-19 12:22:47"}
+{"level":"error","message":"Error processing auth message: invalid signature","service":"appointment-service","timestamp":"2025-05-19 12:22:47"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-19 12:23:52"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-19 12:24:30"}
+{"level":"warn","message":"Token debug info - Algorithm: undefined, Type: undefined","service":"appointment-service","timestamp":"2025-05-19 12:24:30"}
+{"level":"warn","message":"Token payload: {\"id\":\"6824a9d75fc8108cd122c073\",\"role\":\"Admin\",\"permissions\":[\"create_user\",\"delete_user\",\"create_role\",\"manage_roles\",\"assign_role\",\"manage_users\",\"view_logs\",\"manage_patients\"],\"iat\":1747650167,\"exp\":1747651067}","service":"appointment-service","timestamp":"2025-05-19 12:24:30"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Token verification skipped for testing!","service":"appointment-service","timestamp":"2025-05-19 12:24:30"}
+{"level":"info","message":"Published appointment created event to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 12:24:30"}
+{"level":"warn","message":"Email service not configured. Email not sent.","service":"appointment-service","timestamp":"2025-05-19 12:24:30"}
+{"level":"info","message":"Appointment created: ID 682b06de625c3ae16e5e68d1 by user 6824a9d75fc8108cd122c073 for patient azyz Smith","service":"appointment-service","timestamp":"2025-05-19 12:24:30"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-19 12:27:52"}
+{"level":"error","message":"Error processing auth message: invalid signature","service":"appointment-service","timestamp":"2025-05-19 12:27:52"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:26:14"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 13:26:14"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:26:14"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 13:26:14"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:26:30"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 13:26:30"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 13:26:30"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:26:30"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:26:53"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 13:26:53"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 13:26:53"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:26:53"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:27:05"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 13:27:05"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:27:05"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 13:27:05"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:27:16"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 13:27:16"}
+{"level":"info","message":"Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 13:27:16"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:27:16"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:27:27"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-19 13:27:27"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:27:27"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:27:44"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:27:45"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:27:59"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:27:59"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:28:06"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:28:06"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:28:19"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:28:19"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:28:33"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:28:33"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:28:51"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:28:51"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:29:00"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:29:00"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:29:18"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:29:18"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:29:21"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:29:21"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:29:37"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:29:37"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-19 13:30:01"}
+{"level":"info","message":"Appointment created successfully: ID 682b1639447f1d94862db40a","service":"appointment-service","timestamp":"2025-05-19 13:30:01"}
+{"level":"info","message":"Published appointment created event to RabbitMQ","service":"appointment-service","timestamp":"2025-05-19 13:30:01"}
+{"level":"warn","message":"Email service not configured. Email not sent.","service":"appointment-service","timestamp":"2025-05-19 13:30:01"}
+{"level":"info","message":"Appointment created: ID 682b1639447f1d94862db40a by user 6824a9d75fc8108cd122c073 (Admin) for patient azyz Smith","service":"appointment-service","timestamp":"2025-05-19 13:30:01"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-19 13:42:46"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-19 13:45:06"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-19 13:45:44"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-19 13:47:04"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-19 13:47:04"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-19 13:47:17"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-19 13:48:14"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-21 19:47:46"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-21 19:48:34"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-21 19:53:48"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-21 19:53:48"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-21 19:53:48"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-21 19:53:48"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-21 19:54:05"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-21 19:54:05"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-21 19:54:05"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-21 19:54:05"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-21 19:54:05"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2025-05-21 19:54:17"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-21 19:54:17"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-21 19:54:17"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Falling back to token decode without verification","service":"appointment-service","timestamp":"2025-05-21 19:54:17"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2025-05-21 19:54:17"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6824a9d75fc8108cd122c073 (Admin)","service":"appointment-service","timestamp":"2025-05-21 19:54:17"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-21 19:54:24"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-21 19:54:24"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-21 19:54:24"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Falling back to token decode without verification","service":"appointment-service","timestamp":"2025-05-21 19:54:24"}
+{"level":"info","message":"Appointment created successfully: ID 682e1351c36da6daaf6d4a65","service":"appointment-service","timestamp":"2025-05-21 19:54:25"}
+{"level":"info","message":"Published appointment created event to RabbitMQ","service":"appointment-service","timestamp":"2025-05-21 19:54:25"}
+{"level":"warn","message":"Email service not configured. Email not sent.","service":"appointment-service","timestamp":"2025-05-21 19:54:25"}
+{"level":"info","message":"Appointment created: ID 682e1351c36da6daaf6d4a65 by user 6824a9d75fc8108cd122c073 (Admin) for patient azyz Smith","service":"appointment-service","timestamp":"2025-05-21 19:54:25"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-21 20:57:45"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-21 20:57:45"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-21 20:57:45"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-21 20:57:45"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-21 20:57:45"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-21 20:57:57"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-21 20:57:57"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-21 20:57:57"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-21 20:57:57"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-21 20:57:57"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-21 21:07:18"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-21 21:07:18"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-21 21:07:18"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-21 21:07:18"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-21 21:07:18"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-22 02:51:43"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-22 02:51:43"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-22 02:51:44"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-22 02:51:44"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-22 02:51:44"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-22 02:51:56"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-22 02:51:56"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-22 02:51:56"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-22 02:51:56"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-22 02:51:56"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-22 02:52:07"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-22 02:52:07"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-22 02:52:07"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-22 02:52:07"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-22 02:52:07"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 03:05:36"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 03:05:36"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 03:05:36"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 17:14:36"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:14:36"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 17:14:36"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2025-05-22 17:15:18"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 17:15:18"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:15:18"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Falling back to token decode without verification","service":"appointment-service","timestamp":"2025-05-22 17:15:18"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2025-05-22 17:15:18"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6824a9d75fc8108cd122c073 (Admin)","service":"appointment-service","timestamp":"2025-05-22 17:15:18"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-22 17:29:00"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-22 17:29:00"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-22 17:29:00"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-22 17:29:00"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-22 17:29:00"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-22 17:29:14"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-22 17:29:15"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-22 17:29:15"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-22 17:29:15"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-22 17:29:15"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-22 17:30:00"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 17:30:00"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:30:00"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 17:30:00"}
+{"level":"info","message":"User authenticated: ID=6824a9d75fc8108cd122c073, Role=Admin, Permissions=[create_user, delete_user, create_role, manage_roles, assign_role, manage_users, view_logs, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 17:30:00"}
+{"level":"info","message":"Checking permission \"manage_patients\" for user 6824a9d75fc8108cd122c073 with role Admin","service":"appointment-service","timestamp":"2025-05-22 17:30:00"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2025-05-22 17:30:00"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","createdAt":"init","createdBy":"init","date":"init","doctorId":"init","doctorName":"init","duration":"init","notes":"init","patientContact.email":"init","patientContact.phone":"init","patientName":"init","reminderSent":"init","status":"init","time":"init","type":"init","updatedAt":"init","updatedBy":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"createdAt":true,"createdBy":true,"date":true,"doctorId":true,"doctorName":true,"duration":true,"notes":true,"patientContact.email":true,"patientContact.phone":true,"patientName":true,"reminderSent":true,"status":true,"time":true,"type":true,"updatedAt":true,"updatedBy":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"682e1351c36da6daaf6d4a65","createdAt":"2025-05-21T17:54:25.056Z","createdBy":"6824a9d75fc8108cd122c073","date":"2024-06-01T00:00:00.000Z","doctorId":"6825added1702526064d4b8c","doctorName":"Dr. Michael Brown","duration":30,"notes":"Initial consultation for back pain. Patient reports ongoing discomfort for 3 weeks.","patientContact":{"email":"mejriaziz917@gmail.com","phone":"555-123-4567"},"patientName":"azyz Smith","reminderSent":false,"status":"Scheduled","time":"10:30","type":"Consultation","updatedAt":"2025-05-21T17:54:25.056Z","updatedBy":"system"},"level":"warn","message":"Scheduling conflict detected:","service":"appointment-service","timestamp":"2025-05-22 17:30:00"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"info","message":"User authenticated: ID=6824a9d75fc8108cd122c073, Role=Admin, Permissions=[create_user, delete_user, create_role, manage_roles, assign_role, manage_users, view_logs, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"info","message":"Checking permission \"manage_patients\" for user 6824a9d75fc8108cd122c073 with role Admin","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"info","message":"Appointment created successfully: ID 682f436e8cdf59dea1b419d0","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"info","message":"Published appointment created event to RabbitMQ","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"warn","message":"Email service not configured. Email not sent.","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"info","message":"Appointment created: ID 682f436e8cdf59dea1b419d0 by user 6824a9d75fc8108cd122c073 (Admin) for patient azyz mejri","service":"appointment-service","timestamp":"2025-05-22 17:31:58"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 17:32:51"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:32:51"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 17:32:51"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"info","message":"User authenticated: ID=6825bc5195d54d71d2046a65, Role=Secretary, Permissions=[manage_patients]","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"info","message":"Checking permission \"manage_patients\" for user 6825bc5195d54d71d2046a65 with role Secretary","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"info","message":"Permission granted: User 6825bc5195d54d71d2046a65 has permission: manage_patients","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"info","message":"Appointment created successfully: ID 682f43d38cdf59dea1b419d3","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"info","message":"Published appointment created event to RabbitMQ","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"warn","message":"Email service not configured. Email not sent.","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"info","message":"Appointment created: ID 682f43d38cdf59dea1b419d3 by user 6825bc5195d54d71d2046a65 (Secretary) for patient azyz mejri","service":"appointment-service","timestamp":"2025-05-22 17:33:39"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-22 18:16:14"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-22 18:16:14"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-22 18:16:14"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-22 18:16:14"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-22 18:16:14"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-22 18:18:27"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-22 18:18:27"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-22 18:18:27"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-22 18:18:27"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-22 18:18:27"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 18:24:32"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:24:32"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 18:24:32"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 18:25:09"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:25:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 18:25:09"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-22 18:25:32"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 18:25:32"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:25:32"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 18:25:32"}
+{"level":"info","message":"User authenticated: ID=682f4fc933644607152d7292, Role=Secretary, Permissions=[create_appointment, view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 18:25:32"}
+{"level":"info","message":"Checking permission \"create_appointment\" for user 682f4fc933644607152d7292 with role Secretary","service":"appointment-service","timestamp":"2025-05-22 18:25:32"}
+{"level":"info","message":"Permission granted: User 682f4fc933644607152d7292 has permission: create_appointment","service":"appointment-service","timestamp":"2025-05-22 18:25:32"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","createdAt":"init","createdBy":"init","date":"init","doctorId":"init","doctorName":"init","duration":"init","notes":"init","patientContact.email":"init","patientContact.phone":"init","patientName":"init","reminderSent":"init","status":"init","time":"init","type":"init","updatedAt":"init","updatedBy":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"createdAt":true,"createdBy":true,"date":true,"doctorId":true,"doctorName":true,"duration":true,"notes":true,"patientContact.email":true,"patientContact.phone":true,"patientName":true,"reminderSent":true,"status":true,"time":true,"type":true,"updatedAt":true,"updatedBy":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"682f43d38cdf59dea1b419d3","createdAt":"2025-05-22T15:33:39.966Z","createdBy":"6825bc5195d54d71d2046a65","date":"2024-06-01T00:00:00.000Z","doctorId":"6825added1702526064d4b8c","doctorName":"Dr. Michael Brown","duration":30,"notes":"Initial consultation for back pain. Patient reports ongoing discomfort for 3 weeks.","patientContact":{"email":"azzizzflash@gmail.com","phone":"555-123-4567"},"patientName":"azyz mejri","reminderSent":false,"status":"Scheduled","time":"10:30","type":"Consultation","updatedAt":"2025-05-22T15:33:39.966Z","updatedBy":"system"},"level":"warn","message":"Scheduling conflict detected:","service":"appointment-service","timestamp":"2025-05-22 18:25:32"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"info","message":"User authenticated: ID=682f4fc933644607152d7292, Role=Secretary, Permissions=[create_appointment, view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"info","message":"Checking permission \"create_appointment\" for user 682f4fc933644607152d7292 with role Secretary","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"info","message":"Permission granted: User 682f4fc933644607152d7292 has permission: create_appointment","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"info","message":"Appointment created successfully: ID 682f500b72c870308779deb2","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"info","message":"Published appointment created event to RabbitMQ","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"warn","message":"Email service not configured. Email not sent.","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"info","message":"Appointment created: ID 682f500b72c870308779deb2 by user 682f4fc933644607152d7292 (Secretary) for patient azyz mejri","service":"appointment-service","timestamp":"2025-05-22 18:25:47"}
+{"level":"info","message":"DELETE /api/682f500b72c870308779deb2","service":"appointment-service","timestamp":"2025-05-22 18:28:49"}
+{"level":"info","message":"DELETE /api/appointments/682f500b72c870308779deb2","service":"appointment-service","timestamp":"2025-05-22 18:29:18"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 18:29:18"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:29:18"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 18:29:18"}
+{"level":"info","message":"User authenticated: ID=682f4fc933644607152d7292, Role=Secretary, Permissions=[create_appointment, view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 18:29:18"}
+{"level":"info","message":"Checking permission \"delete_user\" for user 682f4fc933644607152d7292 with role Secretary","service":"appointment-service","timestamp":"2025-05-22 18:29:18"}
+{"level":"error","message":"Permission denied: User 682f4fc933644607152d7292 (Secretary) does not have permission: delete_user","service":"appointment-service","timestamp":"2025-05-22 18:29:18"}
+{"level":"error","message":"User permissions: [create_appointment, view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 18:29:18"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 18:32:19"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:32:19"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 18:32:19"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 18:40:04"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:40:04"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 18:40:04"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 18:41:19"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:41:19"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 18:41:19"}
+{"level":"info","message":"DELETE /api/appointments/682f500b72c870308779deb2","service":"appointment-service","timestamp":"2025-05-22 18:41:41"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 18:41:41"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:41:41"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 18:41:41"}
+{"level":"info","message":"User authenticated: ID=682f535772a772d8f3b2fa50, Role=Receptionist, Permissions=[create_appointment, view_appointment, update_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 18:41:41"}
+{"level":"info","message":"Checking permission \"delete_user\" for user 682f535772a772d8f3b2fa50 with role Receptionist","service":"appointment-service","timestamp":"2025-05-22 18:41:41"}
+{"level":"error","message":"Permission denied: User 682f535772a772d8f3b2fa50 (Receptionist) does not have permission: delete_user","service":"appointment-service","timestamp":"2025-05-22 18:41:41"}
+{"level":"error","message":"User permissions: [create_appointment, view_appointment, update_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 18:41:41"}
+{"level":"info","message":"DELETE /api/appointments/682f500b72c870308779deb2/cancel","service":"appointment-service","timestamp":"2025-05-22 18:42:35"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 18:42:35"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:42:35"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 18:42:35"}
+{"level":"info","message":"User authenticated: ID=682f535772a772d8f3b2fa50, Role=Receptionist, Permissions=[create_appointment, view_appointment, update_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 18:42:35"}
+{"level":"info","message":"POST /api/appointments/682f500b72c870308779deb2/cancel","service":"appointment-service","timestamp":"2025-05-22 18:42:43"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 18:42:43"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:42:43"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 18:42:43"}
+{"level":"info","message":"User authenticated: ID=682f535772a772d8f3b2fa50, Role=Receptionist, Permissions=[create_appointment, view_appointment, update_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-22 18:42:43"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 18:45:59"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:45:59"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 18:45:59"}
+{"level":"info","message":"POST /api/appointments/682f500b72c870308779deb2/cancel","service":"appointment-service","timestamp":"2025-05-22 18:46:16"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 18:46:16"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:46:16"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 18:46:16"}
+{"level":"info","message":"User authenticated: ID=682f4f9f33644607152d727f, Role=Admin, Permissions=[create_user, delete_user, create_role, manage_roles, assign_role, manage_users, view_logs, manage_patients, create_appointment, view_appointment, update_appointment, cancel_appointment]","service":"appointment-service","timestamp":"2025-05-22 18:46:16"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-22 18:47:02"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-22 18:47:02"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-22 18:47:02"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-22 18:47:02"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-22 18:47:02"}
+{"level":"info","message":"POST /api/appointments/682f500b72c870308779deb2/cancel","service":"appointment-service","timestamp":"2025-05-22 18:47:18"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 18:47:18"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:47:18"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 18:47:18"}
+{"level":"info","message":"User authenticated: ID=682f4f9f33644607152d727f, Role=Admin, Permissions=[create_user, delete_user, create_role, manage_roles, assign_role, manage_users, view_logs, manage_patients, create_appointment, view_appointment, update_appointment, cancel_appointment]","service":"appointment-service","timestamp":"2025-05-22 18:47:18"}
+{"level":"info","message":"POST /api/appointments/682f500b72c870308779deb2/cancel","service":"appointment-service","timestamp":"2025-05-22 18:48:04"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-22 18:48:04"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 18:48:04"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-22 18:48:04"}
+{"level":"info","message":"User authenticated: ID=682f4f9f33644607152d727f, Role=Admin, Permissions=[create_user, delete_user, create_role, manage_roles, assign_role, manage_users, view_logs, manage_patients, create_appointment, view_appointment, update_appointment, cancel_appointment]","service":"appointment-service","timestamp":"2025-05-22 18:48:04"}
+{"level":"info","message":"Checking permission \"cancel_appointment\" for user 682f4f9f33644607152d727f with role Admin","service":"appointment-service","timestamp":"2025-05-22 18:48:04"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2025-05-22 18:48:04"}
+{"level":"info","message":"Appointment updated successfully: ID 682f500b72c870308779deb2","service":"appointment-service","timestamp":"2025-05-22 18:48:04"}
+{"level":"warn","message":"Email service not configured. Email not sent.","service":"appointment-service","timestamp":"2025-05-22 18:48:04"}
+{"level":"info","message":"Appointment cancelled: ID 682f500b72c870308779deb2 by user 682f4f9f33644607152d727f (Admin) - reason: Patient requested cancellation","service":"appointment-service","timestamp":"2025-05-22 18:48:04"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 19:34:06"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 19:34:06"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 19:34:06"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 19:38:14"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 19:38:14"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 19:38:14"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-22 19:48:09"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-22 19:48:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-22 19:48:09"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-23 14:40:52"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-23 14:40:52"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-23 14:40:52"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 15:38:40"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 15:38:40"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 15:38:41"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 15:38:41"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 15:38:41"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 15:40:14"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 15:40:14"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 15:40:14"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 15:40:14"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 15:40:14"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 15:40:35"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 15:40:35"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 15:40:35"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 15:40:35"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 15:40:35"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 15:41:46"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 15:41:46"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 15:41:46"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 15:41:46"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 15:41:46"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 15:42:37"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 15:42:37"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 15:42:37"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 15:42:37"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 15:42:37"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 15:42:59"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 15:42:59"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 15:42:59"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 15:42:59"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 15:42:59"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 15:43:25"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 15:43:25"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 15:43:25"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 15:43:25"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 15:43:25"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 15:43:39"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 15:43:39"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 15:43:39"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 15:43:39"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 15:43:39"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 15:43:51"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 15:43:51"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 15:43:51"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 15:43:52"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 15:43:52"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 15:45:26"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 15:45:26"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 15:45:26"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 15:45:26"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 15:45:26"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 15:45:37"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 15:45:37"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 15:45:37"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 15:45:37"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 15:45:37"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-23 16:06:29"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2025-05-23 16:06:29"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-23 16:06:29"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-23 16:06:29"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-23 16:06:29"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-23 16:06:29"}
+{"level":"info","message":"GET /api/waiting-room/doctor/682f4bd0e67a02382f6d0209/today","service":"appointment-service","timestamp":"2025-05-23 16:09:19"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-23 16:09:19"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-23 16:09:19"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-23 16:09:19"}
+{"level":"info","message":"User authenticated: ID=682f4f9f33644607152d727f, Role=Admin, Permissions=[create_user, delete_user, create_role, manage_roles, assign_role, manage_users, view_logs, manage_patients, create_appointment, view_appointment, update_appointment, cancel_appointment]","service":"appointment-service","timestamp":"2025-05-23 16:09:19"}
+{"level":"info","message":"Getting today's queue for doctor 682f4bd0e67a02382f6d0209","service":"appointment-service","timestamp":"2025-05-23 16:09:19"}
+{"level":"error","message":"Error calling AI estimation service:","service":"appointment-service","timestamp":"2025-05-23 16:09:19"}
+{"level":"info","message":"GET /api/waiting-room/checkin/682f500b72c870308779deb2","service":"appointment-service","timestamp":"2025-05-23 16:10:54"}
+{"level":"info","message":"POST /api/waiting-room/checkin/682f500b72c870308779deb2","service":"appointment-service","timestamp":"2025-05-23 16:11:07"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-23 16:11:07"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-23 16:11:07"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-23 16:11:07"}
+{"level":"info","message":"User authenticated: ID=682f4f9f33644607152d727f, Role=Admin, Permissions=[create_user, delete_user, create_role, manage_roles, assign_role, manage_users, view_logs, manage_patients, create_appointment, view_appointment, update_appointment, cancel_appointment]","service":"appointment-service","timestamp":"2025-05-23 16:11:07"}
+{"level":"info","message":"Checking in patient for appointment 682f500b72c870308779deb2","service":"appointment-service","timestamp":"2025-05-23 16:11:07"}
+{"level":"warn","message":"Failed to update AI queue estimates:","service":"appointment-service","timestamp":"2025-05-23 16:11:08"}
+{"level":"info","message":"POST /api/waiting-room/start-consultation/682f500b72c870308779deb2","service":"appointment-service","timestamp":"2025-05-23 16:12:06"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-23 16:12:06"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-23 16:12:06"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-23 16:12:06"}
+{"level":"info","message":"User authenticated: ID=682f4f9f33644607152d727f, Role=Admin, Permissions=[create_user, delete_user, create_role, manage_roles, assign_role, manage_users, view_logs, manage_patients, create_appointment, view_appointment, update_appointment, cancel_appointment]","service":"appointment-service","timestamp":"2025-05-23 16:12:06"}
+{"level":"info","message":"Starting consultation for appointment 682f500b72c870308779deb2","service":"appointment-service","timestamp":"2025-05-23 16:12:06"}
+{"level":"warn","message":"Failed to update AI queue estimates:","service":"appointment-service","timestamp":"2025-05-23 16:12:06"}
+{"level":"info","message":"POST /api/waiting-room/delay-notification/682f4bd0e67a02382f6d0209","service":"appointment-service","timestamp":"2025-05-23 16:13:48"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-23 16:13:48"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-23 16:13:48"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-23 16:13:48"}
+{"level":"info","message":"User authenticated: ID=682f4f9f33644607152d727f, Role=Admin, Permissions=[create_user, delete_user, create_role, manage_roles, assign_role, manage_users, view_logs, manage_patients, create_appointment, view_appointment, update_appointment, cancel_appointment]","service":"appointment-service","timestamp":"2025-05-23 16:13:48"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-26 11:08:13"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2025-05-26 11:08:14"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-26 11:08:14"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-26 11:08:14"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-26 11:08:14"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-26 11:08:14"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-26 11:08:38"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 11:08:38"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-26 11:08:38"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-26 11:09:48"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 11:09:48"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-26 11:09:48"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-26 11:23:18"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2025-05-26 11:23:18"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-26 11:23:19"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-26 11:23:19"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-26 11:23:19"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-26 11:23:19"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-26 11:23:24"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-26 11:23:24"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-26 11:45:28"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-26 11:45:28"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-26 15:33:02"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2025-05-26 15:33:03"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-26 15:33:03"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-26 15:33:03"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-26 15:33:03"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-26 15:33:03"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-26 15:33:28"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2025-05-26 15:33:28"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-26 15:33:28"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-26 15:33:28"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-26 15:33:28"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-26 15:33:28"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-26 15:33:43"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2025-05-26 15:33:43"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-26 15:33:43"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-26 15:33:43"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-26 15:33:43"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-26 15:33:43"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2025-05-26 15:34:36"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2025-05-26 15:34:36"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2025-05-26 15:34:36"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2025-05-26 15:34:36"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2025-05-26 15:34:36"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2025-05-26 15:34:36"}
+{"level":"info","message":"GET //api/appointments/count/my","service":"appointment-service","timestamp":"2025-05-26 15:35:06"}
+{"level":"info","message":"GET /api/appointments/count/my","service":"appointment-service","timestamp":"2025-05-26 15:35:11"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:35:11"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:35:11"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:35:11"}
+{"level":"info","message":"User authenticated: ID=682f4f9f33644607152d727f, Role=Admin, Permissions=[create_user, delete_user, create_role, manage_roles, assign_role, manage_users, view_logs, manage_patients, create_appointment, view_appointment, update_appointment, cancel_appointment]","service":"appointment-service","timestamp":"2025-05-26 15:35:11"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 682f4f9f33644607152d727f with role Admin","service":"appointment-service","timestamp":"2025-05-26 15:35:11"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2025-05-26 15:35:11"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-26 15:38:31"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-26 15:38:31"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-26 15:40:17"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-26 15:40:17"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-26 15:40:47"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-26 15:40:47"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-26 15:41:45"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-26 15:41:45"}
+{"level":"info","message":"GET /api/appointments/count/my","service":"appointment-service","timestamp":"2025-05-26 15:42:00"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:42:00"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:42:00"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:42:00"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:42:00"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:42:00"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:42:00"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 0 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 15:42:00"}
+{"level":"info","message":"GET /api/appointments//count/doctor/68346f8949689d540bb4bf99/2024/5","service":"appointment-service","timestamp":"2025-05-26 15:43:22"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:43:22"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:43:22"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:43:22"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:43:22"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:43:22"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:43:22"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 0 appointments in 2024-5","service":"appointment-service","timestamp":"2025-05-26 15:43:22"}
+{"level":"info","message":"GET /api/appointments//count/doctor/68346f8949689d540bb4bf99/2024/4","service":"appointment-service","timestamp":"2025-05-26 15:43:26"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:43:26"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:43:26"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:43:26"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:43:26"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:43:26"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:43:26"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 0 appointments in 2024-4","service":"appointment-service","timestamp":"2025-05-26 15:43:26"}
+{"level":"info","message":"GET /api/appointments//count/doctor/68346f8949689d540bb4bf99/2024/5","service":"appointment-service","timestamp":"2025-05-26 15:43:31"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:43:31"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:43:31"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:43:31"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:43:31"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:43:31"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:43:31"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 0 appointments in 2024-5","service":"appointment-service","timestamp":"2025-05-26 15:43:31"}
+{"level":"info","message":"GET /api/appointments//count/doctor/68346f8949689d540bb4bf99/current","service":"appointment-service","timestamp":"2025-05-26 15:43:52"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:43:52"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:43:52"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:43:52"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:43:52"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:43:52"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:43:52"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 0 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 15:43:52"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-26 15:46:51"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:46:51"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:46:51"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:46:51"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:46:51"}
+{"level":"info","message":"Checking permission \"create_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:46:51"}
+{"level":"error","message":"Permission denied: User 68346f8949689d540bb4bf99 (Doctor) does not have permission: create_appointment","service":"appointment-service","timestamp":"2025-05-26 15:46:51"}
+{"level":"error","message":"User permissions: [view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:46:51"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-26 15:47:17"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-26 15:47:17"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"info","message":"User authenticated: ID=682f4fc933644607152d7292, Role=Secretary, Permissions=[create_appointment, view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"info","message":"Checking permission \"create_appointment\" for user 682f4fc933644607152d7292 with role Secretary","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"info","message":"Permission granted: User 682f4fc933644607152d7292 has permission: create_appointment","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"info","message":"Appointment created successfully: ID 683470fb1c8bf2f7fb1c777f","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"info","message":"Published appointment created event to RabbitMQ","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"warn","message":"Email service not configured. Email not sent.","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"info","message":"Appointment created: ID 683470fb1c8bf2f7fb1c777f by user 682f4fc933644607152d7292 (Secretary) for patient Cameron Williamson","service":"appointment-service","timestamp":"2025-05-26 15:47:39"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2025-05-26 15:47:51"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2025-05-26 15:47:51"}
+{"level":"info","message":"GET /api/appointments/count/doctor/68346f8949689d540bb4bf99/current","service":"appointment-service","timestamp":"2025-05-26 15:48:36"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:48:36"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:48:36"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:48:36"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:48:36"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:48:36"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:48:36"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 0 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 15:48:36"}
+{"level":"info","message":"GET /api/appointments//count/doctor/68346f8949689d540bb4bf99/2024/5","service":"appointment-service","timestamp":"2025-05-26 15:49:16"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:49:16"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:49:16"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:49:16"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:49:16"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:49:16"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:49:16"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 1 appointments in 2024-5","service":"appointment-service","timestamp":"2025-05-26 15:49:16"}
+{"level":"info","message":"GET /api/appointments/count/my","service":"appointment-service","timestamp":"2025-05-26 15:49:26"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:49:26"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:49:26"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:49:26"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:49:26"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:49:26"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:49:26"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 0 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 15:49:26"}
+{"level":"info","message":"GET /api/appointments/doctor/68346f8949689d540bb4bf99/current","service":"appointment-service","timestamp":"2025-05-26 15:52:15"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:52:15"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:52:15"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:52:15"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:52:15"}
+{"level":"info","message":"GET /api/appointments/count/doctor/68346f8949689d540bb4bf99/current","service":"appointment-service","timestamp":"2025-05-26 15:52:33"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:52:33"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:52:33"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:52:33"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:52:33"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:52:33"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:52:33"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 0 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 15:52:33"}
+{"level":"info","message":"GET /api/appointments/count/doctor/68346f8949689d540bb4bf99/2025/5","service":"appointment-service","timestamp":"2025-05-26 15:54:23"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:54:23"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:54:23"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:54:23"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:54:23"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:54:23"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:54:23"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 0 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 15:54:23"}
+{"level":"info","message":"GET /api/appointments/count/doctor/68346f8949689d540bb4bf99/2025/5","service":"appointment-service","timestamp":"2025-05-26 15:54:41"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:54:41"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:54:41"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:54:41"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:54:41"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:54:41"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:54:41"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 1 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 15:54:41"}
+{"level":"info","message":"GET /api/appointments/count/doctor/68346f8949689d540bb4bf99/current","service":"appointment-service","timestamp":"2025-05-26 15:54:46"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:54:46"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:54:46"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:54:46"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:54:46"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:54:46"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:54:46"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 1 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 15:54:46"}
+{"level":"info","message":"GET /api/appointments/count/my","service":"appointment-service","timestamp":"2025-05-26 15:54:55"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 15:54:55"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 15:54:55"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 15:54:55"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 15:54:55"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 15:54:55"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 15:54:55"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 1 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 15:54:55"}
+{"level":"info","message":"GET /api/appointments/count/doctor/68346f8949689d540bb4bf99/2025/6","service":"appointment-service","timestamp":"2025-05-26 16:09:17"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 16:09:18"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:09:18"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 16:09:18"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 16:09:18"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 16:09:18"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 16:09:18"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 0 appointments in 2025-6","service":"appointment-service","timestamp":"2025-05-26 16:09:18"}
+{"level":"info","message":"GET /api/appointments/count/doctor/68346f8949689d540bb4bf99/2025/5","service":"appointment-service","timestamp":"2025-05-26 16:09:25"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 16:09:25"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:09:25"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 16:09:25"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 16:09:25"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 16:09:25"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 16:09:25"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 1 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 16:09:25"}
+{"level":"info","message":"GET /api/appointments/count/doctor/68346f8949689d540bb4bf99/curent","service":"appointment-service","timestamp":"2025-05-26 16:09:34"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 16:09:34"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:09:34"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 16:09:34"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 16:09:34"}
+{"level":"info","message":"GET /api/appointments/count/doctor/68346f8949689d540bb4bf99/current","service":"appointment-service","timestamp":"2025-05-26 16:09:42"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 16:09:42"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:09:42"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 16:09:42"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 16:09:42"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 16:09:42"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 16:09:42"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 1 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 16:09:42"}
+{"level":"info","message":"GET /api/appointments/count/doctor/68346f8949689d540bb4bf99/2025/5","service":"appointment-service","timestamp":"2025-05-26 16:10:36"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2025-05-26 16:10:36"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:10:36"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2025-05-26 16:10:36"}
+{"level":"info","message":"User authenticated: ID=68346f8949689d540bb4bf99, Role=Doctor, Permissions=[view_appointment, update_appointment, cancel_appointment, manage_patients]","service":"appointment-service","timestamp":"2025-05-26 16:10:36"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 68346f8949689d540bb4bf99 with role Doctor","service":"appointment-service","timestamp":"2025-05-26 16:10:36"}
+{"level":"info","message":"Permission granted: User 68346f8949689d540bb4bf99 has permission: view_appointment","service":"appointment-service","timestamp":"2025-05-26 16:10:36"}
+{"level":"info","message":"Doctor 68346f8949689d540bb4bf99 has 1 appointments in 2025-5","service":"appointment-service","timestamp":"2025-05-26 16:10:36"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-05-12 18:24:06"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-05-12 18:24:07"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-05-12 18:24:08"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2026-05-12 18:24:08"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Storing unverified token","service":"appointment-service","timestamp":"2026-05-12 18:24:09"}
+{"level":"info","message":"Received shutdown signal, closing connections...","service":"appointment-service","timestamp":"2026-05-12 18:32:40"}
+{"level":"info","message":"HTTP server closed","service":"appointment-service","timestamp":"2026-05-12 18:32:40"}
+{"level":"warn","message":"RabbitMQ connection closed","service":"appointment-service","timestamp":"2026-05-12 18:32:40"}
+{"level":"info","message":"MongoDB disconnected successfully","service":"appointment-service","timestamp":"2026-05-12 18:32:40"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-05-12 18:32:46"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-05-12 18:32:46"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-05-12 18:32:46"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2026-05-12 18:32:46"}
+{"level":"info","message":"✅ Started consuming auth messages","service":"appointment-service","timestamp":"2026-05-12 18:32:46"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-05-12 18:32:46"}
+{"level":"info","message":"Received auth message: token.issued","service":"appointment-service","timestamp":"2026-05-12 18:48:40"}
+{"level":"info","message":"Token stored for user: 69406aca656236d9e2dc48f5","service":"appointment-service","timestamp":"2026-05-12 18:48:40"}
+{"level":"info","message":"Received auth message: token.refreshed","service":"appointment-service","timestamp":"2026-05-12 19:01:39"}
+{"level":"info","message":"Token stored for user: 69406aca656236d9e2dc48f5","service":"appointment-service","timestamp":"2026-05-12 19:01:39"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-21 00:48:41"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-21 00:48:42"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-21 00:48:42"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-21 00:48:42"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-21 00:48:46"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-21 00:48:50"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-21 00:48:54"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-21 00:48:58"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-21 00:49:02"}
+{"level":"warn","message":"Some auxiliary services (MongoDB/RabbitMQ) failed to initialize — starting server anyway. Some features may be limited.","service":"appointment-service","timestamp":"2026-06-21 00:49:02"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-21 00:49:02"}

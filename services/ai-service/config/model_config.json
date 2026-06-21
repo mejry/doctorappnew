@@ -1,0 +1,18 @@
+{
+    "model_info": {
+        "version": "1.0.0",
+        "algorithm": "Random Forest with Binary Relevance",
+        "training_date": "2024-12-01",
+        "accuracy": 0.922,
+        "hamming_loss": 0.0017
+    },
+    "features": {
+        "total_features": 331,
+        "numeric_features": ["age", "bloodGlucoseLevel", "heartRate", "oxygenSaturation", "respiratoryRate", "bodyTemperature", "weight", "height", "BMI", "systolicBP", "diastolicBP"],
+        "text_features": ["symptoms"],
+        "categorical_features": ["gender", "smokingStatus", "alcoholConsumption", "ageGroup"]
+    },
+    "medications": {
+        "total_medications": 50
+    }
+}
