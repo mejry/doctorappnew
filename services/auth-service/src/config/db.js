@@ -21,37 +21,42 @@ const connectDB = async () => {
 const initializeRolesAndAdmin = async () => {
   try {
     // Define all available permissions
-   const allPermissions = [
+    const allPermissions = [
       // User management
       'view_user',
-      'create_user', 
+      'create_user',
       'update_user',
       'delete_user',
-      
+
       // Role management
       'view_role',
       'create_role',
       'update_role',
       'delete_role',
-      
+
       // Patient management
       'view_patient',
       'create_patient',
-      'update_patient', 
+      'update_patient',
       'delete_patient',
-      
+
       // Consultation management
       'view_consultation',
       'create_consultation',
       'update_consultation',
       'delete_consultation',
-      
-      // Prescription management
+
+      // Appointment management
+      'view_appointment',
+      'create_appointment',
+      'update_appointment',
+      'delete_appointment',
+
       'view_prescription',
       'create_prescription',
       'update_prescription',
-      'delete_prescription' ,
-       // Prescription management
+      'delete_prescription',
+      // Medication management
       'view_medication',
       'create_medication',
       'update_medication',
@@ -60,43 +65,52 @@ const initializeRolesAndAdmin = async () => {
 
     // Create roles with specific permissions
     const roles = [
-      { 
-        name: 'Admin', 
+      {
+        name: 'Admin',
         permissions: allPermissions
       },
-      { 
-        name: 'Doctor', 
-     permissions: [
+      {
+        name: 'Doctor',
+        permissions: [
           'view_patient',
           'create_patient',
           'update_patient',
           'view_consultation',
           'create_consultation',
-          'update_consultation'
-        ] 
-      },
-      { 
-        name: 'Secretary', 
-      permissions: [
-          'view_patient',
-          'create_patient',
-          'update_patient',
-          'view_consultation',
-          'create_consultation',
-          'update_consultation'
-        ] 
-      },
-      { 
-        name: 'Receptionist', 
-    permissions: [
-          'view_patient',
-          'create_patient',
-          'update_patient'
+          'update_consultation',
+          'view_appointment',
+          'create_appointment',
+          'update_appointment'
         ]
       },
-      { 
-        name: 'User', 
-        permissions: [] 
+      {
+        name: 'Secretary',
+        permissions: [
+          'view_patient',
+          'create_patient',
+          'update_patient',
+          'view_consultation',
+          'create_consultation',
+          'update_consultation',
+          'view_appointment',
+          'create_appointment',
+          'update_appointment'
+        ]
+      },
+      {
+        name: 'Receptionist',
+        permissions: [
+          'view_patient',
+          'create_patient',
+          'update_patient',
+          'view_appointment',
+          'create_appointment',
+          'update_appointment'
+        ]
+      },
+      {
+        name: 'User',
+        permissions: []
       }
     ];
 
@@ -122,12 +136,12 @@ const initializeRolesAndAdmin = async () => {
     const adminExists = await User.findOne({ email: adminEmail });
     console.log(adminEmail);
     console.log(adminExists);
-    
-    
+
+
     if (!adminExists) {
-      
+
       //const hashedPassword = await bcrypt.hash(defaultPassword, 10);
-     
+
       const adminUser = new User({
         firstname: 'roua',
         lastname: 'youneb',
@@ -135,20 +149,19 @@ const initializeRolesAndAdmin = async () => {
         password: defaultPassword,
         role: adminRole._id,
         emailVerified: true,
-        active: true 
+        active: true
       });
-       
-      
+
+
       await adminUser.save();
-      
-      // Log admin creation
-  await LogEntry.create({
-  eventType: 'REGISTER',
-  action: 'CREATE_ADMIN',  // Add this required field
-  userId: adminUser._id,
-  message: 'Default admin account created during system initialization'
-});
-      
+
+      await LogEntry.create({
+        eventType: 'REGISTER',
+        action: 'CREATE_ADMIN',  // Add this required field
+        userId: adminUser._id,
+        message: 'Default admin account created during system initialization'
+      });
+
       console.log(`✅ Default admin user created: ${adminEmail}`);
       console.log('⚠️ IMPORTANT: Change the default admin password immediately!');
     } else {
@@ -159,6 +172,49 @@ const initializeRolesAndAdmin = async () => {
         console.log(`✅ Default admin user updated: ${adminEmail}`);
       }
     }
+
+    // CREATE DEFAULT SECRETARY
+    const secretaryRole = await Role.findOne({ name: 'Secretary' });
+    if (secretaryRole) {
+      const secEmail = 'manitayounes290@gmail.com';
+      const secPassword = 'password123';
+      const secExists = await User.findOne({ email: secEmail });
+      if (!secExists) {
+        const secUser = new User({
+          firstname: 'Demo',
+          lastname: 'Secretaire',
+          email: secEmail,
+          password: secPassword,
+          role: secretaryRole._id,
+          emailVerified: true,
+          active: true
+        });
+        await secUser.save();
+        console.log(`✅ Default secretary user created: ${secEmail}`);
+      }
+    }
+
+    // CREATE DEFAULT USER
+    const userRole = await Role.findOne({ name: 'User' });
+    if (userRole) {
+      const usrEmail = 'user@example.com';
+      const usrPassword = 'password123';
+      const usrExists = await User.findOne({ email: usrEmail });
+      if (!usrExists) {
+        const usrUser = new User({
+          firstname: 'Demo',
+          lastname: 'User',
+          email: usrEmail,
+          password: usrPassword,
+          role: userRole._id,
+          emailVerified: true,
+          active: true
+        });
+        await usrUser.save();
+        console.log(`✅ Default user created: ${usrEmail}`);
+      }
+    }
+
   } catch (error) {
     console.error('❌ System initialization error:', error.message);
   }

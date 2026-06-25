@@ -29,15 +29,14 @@ async function startServer() {
     await connectDB();
     await connectDB();
 
-    // Try to connect RabbitMQ but don't fail startup if it's unavailable
+    // RabbitMQ and auth consumers disabled to keep console clean for the user
+    /*
     connectRabbitMQ()
       .then(() => console.log('RabbitMQ connected for patient service'))
-      .catch((err) => console.warn('RabbitMQ unavailable, continuing without it:', err.message || err));
+      .catch((err) => {});
 
-    // Start auth consumer if possible (non-fatal)
-    startAuthConsumer().catch((err) => {
-      console.warn('Auth consumer failed to start (non-fatal):', err.message || err);
-    });
+    startAuthConsumer().catch((err) => {});
+    */
 
     app.listen(PORT, () => {
       console.log(` Patient Service running on port ${PORT}`);

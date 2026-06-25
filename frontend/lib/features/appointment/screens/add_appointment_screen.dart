@@ -61,7 +61,9 @@ class _AddAppointmentScreenState extends State<AddAppointmentScreen> {
 
   void _updateDateTimeFields() {
     _dateController.text = DateFormat('yyyy-MM-dd').format(_selectedDate);
-    _timeController.text = _selectedTime.format(context);
+    final String hour = _selectedTime.hour.toString().padLeft(2, '0');
+    final String minute = _selectedTime.minute.toString().padLeft(2, '0');
+    _timeController.text = '$hour:$minute';
   }
 
   Future<void> _pickDate() async {

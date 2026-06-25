@@ -8,28 +8,31 @@ admin:
 
 apiEndpoints:
   auth:
-    path: '/api/auth/*'
+    paths: ['/api/auth', '/api/auth/*']
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
   users:
-    path: '/api/users/*'
+    paths: ['/api/users', '/api/users/*']
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
   roles:
-    path: '/api/roles/*'
+    paths: ['/api/roles', '/api/roles/*']
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
   patients:
-    path: '/api/patients/*'
+    paths: ['/api/patients', '/api/patients/*']
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
   consultations:
-    path: '/api/consultations/*'
+    paths: ['/api/consultations', '/api/consultations/*']
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
   prescriptions:
-    path: '/api/prescriptions/*'
+    paths: ['/api/prescriptions', '/api/prescriptions/*']
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
   medications:
-    path: '/api/medications/*'
+    paths: ['/api/medications', '/api/medications/*']
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
   appointments:
-    path: '/api/appointments/*'
+    paths: ['/api/appointments', '/api/appointments/*']
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+  waitingroom:
+    paths: ['/api/waiting-room', '/api/waiting-room/*']
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
 
 serviceEndpoints:
@@ -57,68 +60,77 @@ policies:
   - rewrite
 
 pipelines:
-  default:
+  authPipeline:
     apiEndpoints:
       - auth
       - users
       - roles
-      - patients
-      - consultations
-      - prescriptions
-      - medications
-      - appointments
     policies:
       - cors:
           - action:
-              origin: '*'
-              methods: 'GET,HEAD,PUT,PATCH,POST,DELETE'
+              origin: 'http://localhost:3000'
+              credentials: true
+              methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS'
               allowedHeaders: 'Content-Type,Authorization'
       - proxy:
-          - condition:
-              name: pathMatch
-              pattern: '/api/auth/*'
-            action:
+          - action:
               serviceEndpoint: auth
               changeOrigin: true
-          - condition:
-              name: pathMatch
-              pattern: '/api/users/*'
-            action:
-              serviceEndpoint: auth
-              changeOrigin: true
-          - condition:
-              name: pathMatch
-              pattern: '/api/roles/*'
-            action:
-              serviceEndpoint: auth
-              changeOrigin: true
-          - condition:
-              name: pathMatch
-              pattern: '/api/patients/*'
-            action:
+  patientsPipeline:
+    apiEndpoints:
+      - patients
+    policies:
+      - cors:
+          - action:
+              origin: 'http://localhost:3000'
+              credentials: true
+              methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS'
+              allowedHeaders: 'Content-Type,Authorization'
+      - proxy:
+          - action:
               serviceEndpoint: patients
               changeOrigin: true
-          - condition:
-              name: pathMatch
-              pattern: '/api/consultations/*'
-            action:
+  consultationsPipeline:
+    apiEndpoints:
+      - consultations
+    policies:
+      - cors:
+          - action:
+              origin: 'http://localhost:3000'
+              credentials: true
+              methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS'
+              allowedHeaders: 'Content-Type,Authorization'
+      - proxy:
+          - action:
               serviceEndpoint: consultations
               changeOrigin: true
-          - condition:
-              name: pathMatch
-              pattern: '/api/prescriptions/*'
-            action:
+  prescriptionsPipeline:
+    apiEndpoints:
+      - prescriptions
+      - medications
+    policies:
+      - cors:
+          - action:
+              origin: 'http://localhost:3000'
+              credentials: true
+              methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS'
+              allowedHeaders: 'Content-Type,Authorization'
+      - proxy:
+          - action:
               serviceEndpoint: prescriptions
               changeOrigin: true
-          - condition:
-              name: pathMatch
-              pattern: '/api/appointments/*'
-            action:
+  appointmentsPipeline:
+    apiEndpoints:
+      - appointments
+      - waitingroom
+    policies:
+      - cors:
+          - action:
+              origin: 'http://localhost:3000'
+              credentials: true
+              methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS'
+              allowedHeaders: 'Content-Type,Authorization'
+      - proxy:
+          - action:
               serviceEndpoint: appointments
-              changeOrigin: true
-          - condition:
-              name: pathMatch
-              pattern: '/api/medications/*'
-            action:
-              serviceEndpoint: prescriptions
               changeOrigin: true

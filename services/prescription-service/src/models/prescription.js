@@ -12,7 +12,7 @@ const PrescriptionSchema = new Schema({
     },
     status: {
       type: String,
-      enum: ['Active', 'Completed', 'Cancelled', 'Expired', 'Pending'],
+      enum: ['Active', 'Completed', 'Cancelled', 'Expired', 'Pending', 'Draft'],
       default: 'Pending'
     },
     date: { 

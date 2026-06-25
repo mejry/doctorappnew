@@ -67,4 +67,87 @@ class AppointmentService {
       throw Exception('Error creating appointment: $e');
     }
   }
+
+  /// Update an existing appointment (status, notes, etc.)
+  Future<Appointment> updateAppointment(String id, Map<String, dynamic> data) async {
+    try {
+      final response = await _apiService.put(
+        '${ApiConfig.appointmentsEndpoint}/$id',
+        data,
+        requireAuth: true,
+      );
+
+      if (response.statusCode == 200) {
+        final result = jsonDecode(response.body);
+        final record = result['appointment'] ?? result;
+        return Appointment.fromJson(record);
+      }
+
+      throw Exception('Failed to update appointment: ${response.statusCode}');
+    } catch (e) {
+      throw Exception('Error updating appointment: $e');
+    }
+  }
+
+  /// Check-in a patient (Secretary / Receptionist)
+  Future<bool> checkInPatient(String appointmentId, {String? notes, String priority = 'Normal'}) async {
+    try {
+      final response = await _apiService.post(
+        '/api/waiting-room/checkin/$appointmentId',
+        {
+          'priority': priority,
+          if (notes != null) 'notes': notes,
+        },
+        requireAuth: true,
+      );
+      return response.statusCode == 200;
+    } catch (e) {
+      throw Exception('Error checking in patient: $e');
+    }
+  }
+
+  /// Start consultation (Doctor)  — sets appointment to In-progress & auto-creates consultation
+  Future<bool> startConsultation(String appointmentId) async {
+    try {
+      final response = await _apiService.post(
+        '/api/waiting-room/start-consultation/$appointmentId',
+        {},
+        requireAuth: true,
+      );
+      return response.statusCode == 200;
+    } catch (e) {
+      throw Exception('Error starting consultation: $e');
+    }
+  }
+
+  /// Complete consultation (Doctor)
+  Future<bool> completeConsultation(String appointmentId, {String? notes, int? actualDuration}) async {
+    try {
+      final response = await _apiService.post(
+        '/api/waiting-room/complete-consultation/$appointmentId',
+        {
+          if (notes != null) 'notes': notes,
+          if (actualDuration != null) 'actualDuration': actualDuration,
+        },
+        requireAuth: true,
+      );
+      return response.statusCode == 200;
+    } catch (e) {
+      throw Exception('Error completing consultation: $e');
+    }
+  }
+
+  /// Cancel an appointment
+  Future<bool> cancelAppointment(String appointmentId, String reason) async {
+    try {
+      final response = await _apiService.post(
+        '${ApiConfig.appointmentsEndpoint}/$appointmentId/cancel',
+        {'cancellationReason': reason},
+        requireAuth: true,
+      );
+      return response.statusCode == 200;
+    } catch (e) {
+      throw Exception('Error cancelling appointment: $e');
+    }
+  }
 }

@@ -99,7 +99,12 @@ async function _connect(retries = 5, delay = 4000) {
 
 async function publish(queue, message) {
   if (!isConnectedToRabbitMQ()) {
-    await connect();
+    try {
+      await connect();
+    } catch (e) {
+      logger.warn(`⚠️ Failed to connect to RabbitMQ for publish, skipping event for ${queue}`);
+      return;
+    }
   }
 
   try {
@@ -107,20 +112,18 @@ async function publish(queue, message) {
       persistent: true,
     });
   } catch (error) {
-    logger.error(`Error publishing to queue ${queue}: ${error.message}`);
-
-    isConnected = false;
-    await connect();
-
-    return channel.sendToQueue(queue, Buffer.from(JSON.stringify(message)), {
-      persistent: true,
-    });
+    logger.warn(`⚠️ Error publishing to queue ${queue}, skipping event. ${error.message}`);
   }
 }
 
 async function publishToExchange(routingKey, message) {
   if (!isConnectedToRabbitMQ()) {
-    await connect();
+    try {
+      await connect();
+    } catch (e) {
+      logger.warn(`⚠️ Failed to connect to RabbitMQ for exchange, skipping event for ${routingKey}`);
+      return;
+    }
   }
 
   try {
@@ -131,19 +134,7 @@ async function publishToExchange(routingKey, message) {
       { persistent: true }
     );
   } catch (error) {
-    logger.error(
-      `Error publishing to exchange with routing key ${routingKey}: ${error.message}`
-    );
-
-    isConnected = false;
-    await connect();
-
-    return channel.publish(
-      config.rabbitmq.exchangeName,
-      routingKey,
-      Buffer.from(JSON.stringify(message)),
-      { persistent: true }
-    );
+    logger.warn(`⚠️ Error publishing to exchange with routing key ${routingKey}, skipping event. ${error.message}`);
   }
 }
 

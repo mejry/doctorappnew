@@ -20,6 +20,8 @@ import 'package:frontend/features/patient/screens/patient_consultations_screen.d
 import 'package:frontend/features/consultation/screens/consultation_list_screen.dart';
 import 'package:frontend/features/consultation/screens/new_consultation_screen.dart';
 import 'package:frontend/features/patient/services/patient_service.dart';
+import 'package:frontend/features/appointment/services/appointment_service.dart';
+import 'package:frontend/features/appointment/models/appointment.dart';
 import 'package:frontend/features/prescription/screens/add_medication_screen.dart';
 import 'package:frontend/features/prescription/screens/medicationList._screen.dart';
 import 'package:frontend/features/prescription/screens/auto_prescription_screen.dart';
@@ -410,6 +412,36 @@ class _DashboardScreenState extends State<DashboardScreen> {
       _currentContext = 'AppointmentList';
       _currentContent = AppointmentListScreen(
         onAddAppointmentPressed: _showAddAppointmentForm,
+        onCompleteConsultation: _showCompleteConsultationFromAppointment,
+      );
+    });
+  }
+
+  void _showCompleteConsultationFromAppointment(Appointment appointment) {
+    if (!SessionPermissions(_sessionManager).canCreateConsultation) {
+      _showPermissionError('create consultations');
+      return;
+    }
+
+    setState(() {
+      _currentContext = 'NewConsultationSteps';
+      _currentContent = AddConsultationWithStepsScreen(
+        patientId: appointment.patientId,
+        prefilledAppointment: appointment,
+        onBack: () => _showAppointmentList(),
+        onCompleted: (consultationId, prescriptionId) async {
+          // Marquer le RDV comme complété après que la consultation a été créée
+          try {
+            final appointmentService = AppointmentService();
+            await appointmentService.completeConsultation(appointment.id!);
+          } catch (e) {
+            debugPrint('Failed to complete appointment: $e');
+          }
+          
+          _selectedConsultationId = consultationId;
+          _selectedPrescriptionId = prescriptionId;
+          _showPostConsultationOptions();
+        },
       );
     });
   }

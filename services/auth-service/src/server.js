@@ -1,9 +1,19 @@
 // auth-service/src/server.js
+const fs = require('fs');
+const path = require('path');
+process.on('uncaughtException', (err) => {
+  fs.writeFileSync(path.join(__dirname, '../CRASH_LOG.txt'), err.stack || err.message);
+  process.exit(1);
+});
+process.on('unhandledRejection', (reason) => {
+  fs.writeFileSync(path.join(__dirname, '../REJECTION_LOG.txt'), String(reason));
+});
+
 require("dotenv").config({ path: "./.env" });
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const morgan = require("morgan");
-const cors = require("cors");
+
 const connectDB = require("./config/db");
 const rateLimit = require("express-rate-limit");
 const logConsumer = require("./services/logConsumer");
@@ -18,13 +28,7 @@ process.env.JWT_SECRET = process.env.JWT_SECRET || "jhfduzeajhdsqygiaz";
 // Create Express app
 const app = express();
 
-// CORS config
-app.use(
-  cors({
-    origin: process.env.CLIENT_URL || "http://localhost:3000",
-    credentials: true, // Required for cookies
-  })
-);
+// CORS handled by API Gateway
 
 // Body parser
 app.use(express.json());
@@ -48,11 +52,11 @@ connectDB().catch((err) => {
   process.exit(1);
 });
 
-// Start log consumer
-logConsumer.start().catch((err) => {
-  console.error("Failed to start log consumer:", err);
-  // Don't exit - service can still function without log consumer
-});
+// Start log consumer (DISABLED FOR NOW TO AVOID CONSOLE ERRORS)
+// logConsumer.start().catch((err) => {
+//   console.error("Failed to start log consumer:", err);
+//   // Don't exit - service can still function without log consumer
+// });
 
 // Routes
 const authRoutes = require("./routes/authRoutes");
@@ -70,12 +74,6 @@ app.get("/health", (req, res) => {
     timestamp: new Date().toISOString(),
   });
 });
-app.use(
-  cors({
-    origin: true, // Allow all origins for testing
-    credentials: true,
-  })
-);
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error("Error:", err);
@@ -95,6 +93,6 @@ app.use((req, res) => {
 
 // Start server
 const PORT = 4000;
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, () => {
   console.log(`✅ Auth service running on port ${PORT}`);
 });

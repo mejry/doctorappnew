@@ -3,32 +3,34 @@ import 'package:flutter/foundation.dart';
 
 class Consultation {
   final String? id;
-  final String patientId;
+  final String? patientId;
+  final String? patientName;
   final DateTime date;
   final String time;
   final String type;
   final String status;
   final List<String> symptoms;
   final List<String> diagnosis;
-  final List<String> prescribedAnalyses; // 👈 NON-NULLABLE
+  final List<String> prescribedAnalyses;
   final String? notes;
   final int? duration;
-  final bool isEmergency; // 👈 NOUVEAU CHAMP
+  final bool isEmergency;
   final String? medicalHistoryId;
 
   Consultation({
     this.id,
-    required this.patientId,
+    this.patientId,
+    this.patientName,
     required this.date,
     required this.time,
     required this.type,
     required this.status,
-    required this.symptoms,
-    required this.diagnosis,
-    this.prescribedAnalyses = const [], // 👈 VALEUR PAR DÉFAUT
+    this.symptoms = const [],
+    this.diagnosis = const [],
+    this.prescribedAnalyses = const [],
     this.notes,
     this.duration,
-    this.isEmergency = false, // 👈 VALEUR PAR DÉFAUT
+    this.isEmergency = false,
     this.medicalHistoryId,
   });
 
@@ -50,6 +52,7 @@ class Consultation {
       return Consultation(
         id: json['_id'] ?? json['id'],
         patientId: json['patientId'],
+        patientName: json['patientName'],
         date: parsedDate,
         time: json['time'] ?? '00:00',
         type: json['type'] ?? 'Consultation',
@@ -75,7 +78,8 @@ class Consultation {
   Map<String, dynamic> toJson() {
     return {
       if (id != null) 'id': id,
-      'patientId': patientId,
+      if (patientId != null) 'patientId': patientId,
+      if (patientName != null) 'patientName': patientName,
       'date': date.toIso8601String(), // 👈 FORMAT ISO STRING
       'time': time,
       'type': type,
@@ -94,6 +98,7 @@ class Consultation {
   Consultation copyWith({
     String? id,
     String? patientId,
+    String? patientName,
     DateTime? date,
     String? time,
     String? type,
@@ -109,6 +114,7 @@ class Consultation {
     return Consultation(
       id: id ?? this.id,
       patientId: patientId ?? this.patientId,
+      patientName: patientName ?? this.patientName,
       date: date ?? this.date,
       time: time ?? this.time,
       type: type ?? this.type,

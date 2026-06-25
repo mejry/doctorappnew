@@ -23,21 +23,28 @@ async function connectRabbitMQ() {
 }
 
 async function publishEvent(eventType, routingKey, data) {
-  if (!channel) await connectRabbitMQ();
-  
-  const message = {
-    eventId: uuidv4(),
-    eventType,
-    timestamp: new Date(),
-    data
-  };
+  try {
+    if (!channel) {
+      console.warn(`⚠️ RabbitMQ not connected. Skipping event: ${eventType}`);
+      return;
+    }
+    
+    const message = {
+      eventId: uuidv4(),
+      eventType,
+      timestamp: new Date(),
+      data
+    };
 
-  channel.publish(
-    'medical_events',
-    routingKey,
-    Buffer.from(JSON.stringify(message)),
-    { persistent: true }
-  );
+    channel.publish(
+      'medical_events',
+      routingKey,
+      Buffer.from(JSON.stringify(message)),
+      { persistent: true }
+    );
+  } catch (error) {
+    console.warn(`⚠️ Failed to publish event ${eventType}, but continuing without it.`);
+  }
 }
 
 async function consumeEvents(queue, routingKey, callback) {

@@ -1,6 +1,6 @@
 // appointment-service/src/server.js
 const express = require('express');
-const cors = require('cors');
+
 const cron = require('node-cron');
 const config = require('./config/config');
 const logger = require('./config/logger');
@@ -14,7 +14,7 @@ const waitingRoomRoutes = require('./routes/waitingRoomRoutes');
 const app = express();
 
 // Middleware
-app.use(cors());
+// CORS handled by gateway
 app.use(express.json());
 
 // Request logging middleware
@@ -38,7 +38,8 @@ async function initializeServices() {
     console.log('Connecting to MongoDB...');
     await connectDB();
     
-    // Connect to RabbitMQ
+    // Connect to RabbitMQ and start consumers disabled to keep console clean for the user
+    /*
     console.log('Connecting to RabbitMQ...');
     await rabbitmq.connect();
     
@@ -48,6 +49,7 @@ async function initializeServices() {
       console.error('Failed to start auth consumer:', err);
       // Don't exit, just log the error
     });
+    */
     
     console.log('All services connected successfully');
     return true;
@@ -104,7 +106,7 @@ async function startServer() {
     });
     
     // Start server
-    const server = app.listen(config.port, () => {
+    const server = app.listen(config.port, '0.0.0.0', () => {
       logger.info(`Appointment service running on port ${config.port}`);
     });
     

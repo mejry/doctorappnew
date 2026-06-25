@@ -47,14 +47,14 @@ class _ConsultationListScreenState extends State<ConsultationListScreen> {
       final consultations = await _consultationService.getAllConsultations();
 
       for (final consultation in consultations) {
-        if (!_patients.containsKey(consultation.patientId)) {
+        if (consultation.patientId != null && !_patients.containsKey(consultation.patientId)) {
           try {
             final patient =
-                await _patientService.getPatientById(consultation.patientId);
-            _patients[consultation.patientId] = patient;
+                await _patientService.getPatientById(consultation.patientId!);
+            _patients[consultation.patientId!] = patient;
           } catch (e) {
-            _patients[consultation.patientId] = Patient(
-              id: consultation.patientId,
+            _patients[consultation.patientId!] = Patient(
+              id: consultation.patientId!,
               firstName: 'Unknown',
               lastName: 'Patient',
               email: 'unknown@example.com',
@@ -79,12 +79,11 @@ class _ConsultationListScreenState extends State<ConsultationListScreen> {
 
   List<Consultation> get _filteredConsultations {
     return _consultations.where((consultation) {
-      final patient = _patients[consultation.patientId];
+      final patient = consultation.patientId != null ? _patients[consultation.patientId] : null;
       final matchesSearch = _searchQuery.isEmpty ||
-          patient?.fullName
+          (patient != null && patient.fullName
                   .toLowerCase()
-                  .contains(_searchQuery.toLowerCase()) ==
-              true ||
+                  .contains(_searchQuery.toLowerCase())) ||
           consultation.type
               .toLowerCase()
               .contains(_searchQuery.toLowerCase()) ||

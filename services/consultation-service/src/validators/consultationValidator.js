@@ -1,12 +1,13 @@
 const { body, query, validationResult } = require('express-validator');
 exports.consultationValidationRules = () => [
-  body('patientId').notEmpty().isMongoId(),
+  body('patientId').optional().isMongoId(),
+  body('patientName').optional().isString(),
   body('date').isISO8601(),
   body('time').matches(/^([01]\d|2[0-3]):([0-5]\d)$/),
   body('type').isIn(['Bilan', 'Test', 'Consultation', 'Control', 'Follow-up', 'Emergency']),
   body('status').optional().isIn(['Scheduled', 'Completed', 'Canceled', 'Waiting', 'InProgress']),
-  body('symptoms').isArray({ min: 1 }),
-  body('diagnosis').isArray({ min: 1 }),
+  body('symptoms').optional().isArray(),
+  body('diagnosis').optional().isArray(),
   //body('duration').optional().isInt({ min: 5, max: 240 })
 ];
 

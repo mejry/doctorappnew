@@ -221,6 +221,10 @@ class WaitingRoomService {
         doctorId: waitingRoomEntry.doctorId,
         startedBy
       });
+
+      // We removed the auto-creation of Consultation here.
+      // The consultation will now be created when the doctor actually fills out the consultation form from the frontend.
+
       
       return {
         success: true,

@@ -1023,3 +1023,531 @@
 {"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-21 00:49:02"}
 {"level":"warn","message":"Some auxiliary services (MongoDB/RabbitMQ) failed to initialize — starting server anyway. Some features may be limited.","service":"appointment-service","timestamp":"2026-06-21 00:49:02"}
 {"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-21 00:49:02"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-23 01:01:12"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-23 01:01:12"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-23 01:01:12"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 01:01:12"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 01:01:16"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 01:01:20"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 01:01:24"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 01:01:28"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 01:01:32"}
+{"level":"warn","message":"Some auxiliary services (MongoDB/RabbitMQ) failed to initialize — starting server anyway. Some features may be limited.","service":"appointment-service","timestamp":"2026-06-23 01:01:32"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-23 01:01:32"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-23 01:14:32"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-23 01:14:32"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-23 01:14:32"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 01:14:32"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 01:14:36"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 01:14:40"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 01:14:44"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 01:14:48"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 01:14:52"}
+{"level":"warn","message":"Some auxiliary services (MongoDB/RabbitMQ) failed to initialize — starting server anyway. Some features may be limited.","service":"appointment-service","timestamp":"2026-06-23 01:14:52"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-23 01:14:52"}
+{"level":"info","message":"Running appointment reminder scheduler","service":"appointment-service","timestamp":"2026-06-23 09:00:00"}
+{"level":"info","message":"Sent 0 appointment reminders for tomorrow","service":"appointment-service","timestamp":"2026-06-23 09:00:00"}
+{"level":"info","message":"Scheduled 0 appointment reminders","service":"appointment-service","timestamp":"2026-06-23 09:00:00"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-23 10:07:47"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-23 10:07:47"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-23 10:07:47"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-23 10:07:47"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-23 10:14:22"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-23 10:14:22"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-23 10:14:22"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-23 10:14:22"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-23 10:14:43"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-23 10:14:43"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-23 10:14:43"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-23 10:14:43"}
+{"level":"info","message":"Received shutdown signal, closing connections...","service":"appointment-service","timestamp":"2026-06-23 10:17:47"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-23 10:19:14"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-23 10:19:14"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-23 10:19:14"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-23 10:19:14"}
+{"level":"info","message":"Received shutdown signal, closing connections...","service":"appointment-service","timestamp":"2026-06-23 10:47:17"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-23 10:48:37"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-23 10:48:37"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-23 10:48:37"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-23 10:48:37"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-23 10:50:13"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-23 10:50:13"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 10:50:13"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-23 10:50:13"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-23 10:50:13"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-23 10:50:13"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-23 10:50:13"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-23 10:50:13"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-23 10:50:13"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 10:50:13"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 10:50:17"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 10:50:21"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 10:50:25"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 10:50:29"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 10:50:33"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-23 10:50:33"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-23 10:55:24"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-23 10:55:24"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-23 10:55:24"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-23 10:55:24"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-23 10:56:36"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-23 10:56:36"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 10:56:36"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-23 10:56:36"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-23 10:56:36"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-23 10:56:36"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-23 10:56:36"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-23 10:56:36"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-23 10:56:36"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 10:56:36"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 10:56:40"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 10:56:44"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 10:56:48"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 10:56:52"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 10:56:56"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-23 10:56:56"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-23 11:00:59"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-23 11:00:59"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 11:00:59"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-23 11:00:59"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-23 11:00:59"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-23 11:00:59"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-23 11:00:59"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-23 11:00:59"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-23 11:00:59"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 11:00:59"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 11:01:03"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 11:01:07"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 11:01:11"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 11:01:15"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 11:01:19"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-23 11:01:19"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-23 11:13:55"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-23 11:13:55"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 11:13:55"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-23 11:13:55"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-23 11:13:55"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-23 11:13:55"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-23 11:13:55"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-23 11:13:55"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-23 11:13:55"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 11:13:55"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 11:13:59"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 11:14:03"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 11:14:07"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 11:14:11"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 11:14:15"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-23 11:14:15"}
+{"level":"info","message":"Received shutdown signal, closing connections...","service":"appointment-service","timestamp":"2026-06-23 11:53:52"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-23 11:55:45"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-23 11:55:45"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-23 11:55:46"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-23 11:55:46"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-23 12:03:37"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-23 12:03:37"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 12:03:37"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-23 12:03:37"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-23 12:03:37"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-23 12:03:37"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-23 12:03:37"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-23 12:03:37"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-23 12:03:37"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 12:03:37"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 12:03:41"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 12:03:45"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 12:03:49"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 12:03:53"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 12:03:57"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-23 12:03:57"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2026-06-23 12:04:54"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-23 12:04:54"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 12:04:54"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-23 12:04:54"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-23 12:04:54"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2026-06-23 12:05:19"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-23 12:05:19"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 12:05:19"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-23 12:05:19"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-23 12:05:19"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-23 12:12:32"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-23 12:12:32"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-23 12:12:33"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-23 12:12:33"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-23 13:04:54"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-23 13:04:54"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 13:04:54"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-23 13:04:54"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-23 13:04:54"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-23 13:04:54"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-23 13:04:54"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-23 13:04:54"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-23 13:04:54"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:04:54"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:04:58"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:05:02"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:05:06"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:05:10"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 13:05:14"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-23 13:05:14"}
+{"level":"info","message":"POST /api/appointments","service":"appointment-service","timestamp":"2026-06-23 13:42:53"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-23 13:42:53"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 13:42:53"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-23 13:42:53"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-23 13:42:53"}
+{"level":"info","message":"Checking permission \"create_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-23 13:42:53"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-23 13:42:53"}
+{"level":"info","message":"Appointment created successfully: ID 6a3a7f4d67937513aa3993ef","service":"appointment-service","timestamp":"2026-06-23 13:42:53"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:42:53"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:42:57"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:43:01"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:43:05"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:43:09"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 13:43:13"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for publish, skipping event for appointment-created","service":"appointment-service","timestamp":"2026-06-23 13:43:13"}
+{"level":"info","message":"Published appointment created event to RabbitMQ","service":"appointment-service","timestamp":"2026-06-23 13:43:13"}
+{"level":"warn","message":"Email service not configured. Email not sent.","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"info","message":"Appointment created: ID 6a3a7f4d67937513aa3993ef by user 6a2c85423a939ca30cfcd09f (Admin) for patient younes","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:43:18"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:43:22"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:43:26"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-23 13:43:30"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 13:43:34"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-23 13:43:34"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-23 13:43:34"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-23 13:54:47"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-23 13:54:47"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-23 13:54:47"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-23 13:54:47"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-25 20:34:21"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-25 20:34:22"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-25 20:34:22"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-25 20:34:22"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 20:51:03"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 20:51:03"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 20:51:03"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 20:51:03"}
+{"level":"info","message":"User authenticated: ID=6a3d8517b9a8882583ae4de7, Role=Secretary, Permissions=[view_patient, create_patient, update_patient, view_consultation, create_consultation, update_consultation, view_appointment, create_appointment, update_appointment]","service":"appointment-service","timestamp":"2026-06-25 20:51:03"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a3d8517b9a8882583ae4de7 with role Secretary","service":"appointment-service","timestamp":"2026-06-25 20:51:03"}
+{"level":"info","message":"Permission granted: User 6a3d8517b9a8882583ae4de7 has permission: view_appointment","service":"appointment-service","timestamp":"2026-06-25 20:51:03"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 20:51:03"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a3d8517b9a8882583ae4de7 (Secretary)","service":"appointment-service","timestamp":"2026-06-25 20:51:03"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 20:51:03"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 20:51:07"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 20:51:11"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 20:51:15"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 20:51:19"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 20:51:23"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 20:51:23"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 21:59:23"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 21:59:23"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 21:59:23"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 21:59:23"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 21:59:23"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 21:59:23"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 21:59:23"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 21:59:23"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 21:59:23"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 21:59:23"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 21:59:27"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 21:59:31"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 21:59:36"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 21:59:40"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 21:59:44"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 21:59:44"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:00:38"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:00:38"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:00:38"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:00:38"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:00:38"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:00:38"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:00:38"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:00:38"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:00:38"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:00:38"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:00:42"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:00:46"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:00:50"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:00:54"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:00:58"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:00:58"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:11:25"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:11:25"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:11:26"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:11:26"}
+{"level":"info","message":"User authenticated: ID=6a3d8517b9a8882583ae4de7, Role=Secretary, Permissions=[view_patient, create_patient, update_patient, view_consultation, create_consultation, update_consultation, view_appointment, create_appointment, update_appointment]","service":"appointment-service","timestamp":"2026-06-25 22:11:26"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a3d8517b9a8882583ae4de7 with role Secretary","service":"appointment-service","timestamp":"2026-06-25 22:11:26"}
+{"level":"info","message":"Permission granted: User 6a3d8517b9a8882583ae4de7 has permission: view_appointment","service":"appointment-service","timestamp":"2026-06-25 22:11:26"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:11:26"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a3d8517b9a8882583ae4de7 (Secretary)","service":"appointment-service","timestamp":"2026-06-25 22:11:26"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:11:26"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:11:30"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:11:34"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:11:38"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:11:42"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-25 22:11:50"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-25 22:11:50"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-25 22:11:50"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-25 22:11:50"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:28:29"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:28:29"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:28:29"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:28:29"}
+{"level":"info","message":"User authenticated: ID=6a3d8517b9a8882583ae4de7, Role=Secretary, Permissions=[view_patient, create_patient, update_patient, view_consultation, create_consultation, update_consultation, view_appointment, create_appointment, update_appointment]","service":"appointment-service","timestamp":"2026-06-25 22:28:29"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a3d8517b9a8882583ae4de7 with role Secretary","service":"appointment-service","timestamp":"2026-06-25 22:28:29"}
+{"level":"info","message":"Permission granted: User 6a3d8517b9a8882583ae4de7 has permission: view_appointment","service":"appointment-service","timestamp":"2026-06-25 22:28:29"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:28:29"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a3d8517b9a8882583ae4de7 (Secretary)","service":"appointment-service","timestamp":"2026-06-25 22:28:29"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:28:29"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:28:33"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:28:37"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:28:41"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:28:45"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:28:49"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:28:49"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:37:51"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:37:51"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:37:51"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:37:51"}
+{"level":"info","message":"User authenticated: ID=6a3d8517b9a8882583ae4de7, Role=Secretary, Permissions=[view_patient, create_patient, update_patient, view_consultation, create_consultation, update_consultation, view_appointment, create_appointment, update_appointment]","service":"appointment-service","timestamp":"2026-06-25 22:37:51"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a3d8517b9a8882583ae4de7 with role Secretary","service":"appointment-service","timestamp":"2026-06-25 22:37:51"}
+{"level":"info","message":"Permission granted: User 6a3d8517b9a8882583ae4de7 has permission: view_appointment","service":"appointment-service","timestamp":"2026-06-25 22:37:51"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:37:51"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a3d8517b9a8882583ae4de7 (Secretary)","service":"appointment-service","timestamp":"2026-06-25 22:37:51"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:37:51"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:37:55"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:37:59"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:38:03"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:38:07"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:38:11"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:38:11"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:38:41"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:38:41"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:38:41"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:38:41"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:38:41"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:38:41"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:38:41"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:38:41"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:38:41"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:38:41"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:38:45"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:38:49"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:38:53"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:38:57"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:39:01"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:39:01"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:42:25"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:42:25"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:42:25"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:42:25"}
+{"level":"info","message":"User authenticated: ID=6a3d8517b9a8882583ae4de7, Role=Secretary, Permissions=[view_patient, create_patient, update_patient, view_consultation, create_consultation, update_consultation, view_appointment, create_appointment, update_appointment]","service":"appointment-service","timestamp":"2026-06-25 22:42:25"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a3d8517b9a8882583ae4de7 with role Secretary","service":"appointment-service","timestamp":"2026-06-25 22:42:25"}
+{"level":"info","message":"Permission granted: User 6a3d8517b9a8882583ae4de7 has permission: view_appointment","service":"appointment-service","timestamp":"2026-06-25 22:42:25"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:42:25"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a3d8517b9a8882583ae4de7 (Secretary)","service":"appointment-service","timestamp":"2026-06-25 22:42:25"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:42:25"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:42:29"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:42:33"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:42:37"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:42:41"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:42:45"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:42:45"}
+{"level":"info","message":"Received shutdown signal, closing connections...","service":"appointment-service","timestamp":"2026-06-25 22:46:29"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-25 22:49:14"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-25 22:49:14"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-25 22:49:14"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-25 22:49:14"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:52:16"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:52:16"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:16"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:52:16"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:52:16"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:52:16"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:52:16"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:52:17"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:52:17"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:52:17"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:52:21"}
+{"level":"info","message":"POST /api/waiting-room/checkin/6a3a7f4d67937513aa3993ef","service":"appointment-service","timestamp":"2026-06-25 22:52:23"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:52:23"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:23"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:52:23"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:52:23"}
+{"level":"info","message":"Checking in patient for appointment 6a3a7f4d67937513aa3993ef","service":"appointment-service","timestamp":"2026-06-25 22:52:23"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:52:25"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:52:29"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:52:33"}
+{"level":"info","message":"POST /api/waiting-room/checkin/6a3a7f4d67937513aa3993ef","service":"appointment-service","timestamp":"2026-06-25 22:52:34"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:52:34"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:34"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:52:34"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:52:34"}
+{"level":"info","message":"Checking in patient for appointment 6a3a7f4d67937513aa3993ef","service":"appointment-service","timestamp":"2026-06-25 22:52:34"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"warn","message":"Failed to update AI queue estimates:","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"warn","message":"Failed to update AI queue estimates:","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:52:41"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:52:45"}
+{"level":"info","message":"POST /api/waiting-room/start-consultation/6a3a7f4d67937513aa3993ef","service":"appointment-service","timestamp":"2026-06-25 22:52:47"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:52:47"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:47"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:52:47"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:52:47"}
+{"level":"info","message":"Starting consultation for appointment 6a3a7f4d67937513aa3993ef","service":"appointment-service","timestamp":"2026-06-25 22:52:47"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:52:49"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:52:53"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"error","message":"❌ Failed to auto-create consultation: Request failed with status code 401","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"warn","message":"Failed to update AI queue estimates:","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:01"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:05"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:09"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:13"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:53:17"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:53:17"}
+{"level":"info","message":"POST /api/waiting-room/complete-consultation/6a3a7f4d67937513aa3993ef","service":"appointment-service","timestamp":"2026-06-25 22:53:17"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:53:17"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:17"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:53:17"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:53:17"}
+{"level":"info","message":"Completing consultation for appointment 6a3a7f4d67937513aa3993ef","service":"appointment-service","timestamp":"2026-06-25 22:53:17"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:17"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:21"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:25"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:29"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:33"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:53:36"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:53:36"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:36"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:53:36"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:53:36"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:53:36"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:53:36"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:53:36"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:53:36"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:53:37"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:53:37"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:53:37"}
+{"level":"warn","message":"Failed to send training data to AI service:","service":"appointment-service","timestamp":"2026-06-25 22:53:37"}
+{"level":"warn","message":"Failed to update AI queue estimates:","service":"appointment-service","timestamp":"2026-06-25 22:53:37"}
+{"level":"info","message":"GET /api/appointments?status=Scheduled","service":"appointment-service","timestamp":"2026-06-25 22:53:48"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:53:48"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:48"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:53:48"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:53:48"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:53:48"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:53:48"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:53:48"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:53:48"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:48"}
+{"level":"info","message":"GET /api/appointments?status=Checked-in","service":"appointment-service","timestamp":"2026-06-25 22:53:50"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:53:50"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:50"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:53:50"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:53:50"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:53:50"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:53:50"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:53:50"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:53:50"}
+{"level":"info","message":"GET /api/appointments?status=In-progress","service":"appointment-service","timestamp":"2026-06-25 22:53:51"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:53:51"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:51"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:53:51"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:53:51"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:53:51"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:53:51"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:53:51"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:53:51"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:52"}
+{"level":"info","message":"GET /api/appointments?status=Completed","service":"appointment-service","timestamp":"2026-06-25 22:53:53"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:53:53"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:53"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:53:53"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:53:53"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:53:53"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:53:53"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:53:53"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:53:53"}
+{"level":"info","message":"GET /api/appointments?status=Cancelled","service":"appointment-service","timestamp":"2026-06-25 22:53:54"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:53:54"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:54"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:53:54"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:53:54"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:53:54"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:53:54"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:53:54"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:53:54"}
+{"level":"info","message":"GET /api/appointments?status=No-show","service":"appointment-service","timestamp":"2026-06-25 22:53:55"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:53:55"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:55"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:53:55"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:53:55"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:53:55"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:53:55"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:53:55"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:53:55"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:53:56"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-25 22:53:57"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-25 22:53:57"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:57"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-25 22:53:57"}
+{"level":"info","message":"User authenticated: ID=6a2c85423a939ca30cfcd09f, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-25 22:53:57"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a2c85423a939ca30cfcd09f with role Admin","service":"appointment-service","timestamp":"2026-06-25 22:53:57"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-25 22:53:57"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-25 22:53:57"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 6a2c85423a939ca30cfcd09f (Admin)","service":"appointment-service","timestamp":"2026-06-25 22:53:57"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:54:00"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-25 22:54:05"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}
+{"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}

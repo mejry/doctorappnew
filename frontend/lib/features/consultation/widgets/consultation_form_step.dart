@@ -8,9 +8,11 @@ import 'package:frontend/core/constants/form_styles.dart';
 import 'package:frontend/features/consultation/models/consultation.dart';
 import 'package:frontend/features/patient/services/patient_service.dart';
 import 'package:frontend/features/patient/models/patient.dart';
+import 'package:frontend/features/appointment/models/appointment.dart';
 
 class ConsultationFormStep extends StatefulWidget {
   final Patient? selectedPatient;
+  final Appointment? prefilledAppointment;
   final Function(Consultation, Patient) onNext;
   final VoidCallback onBack;
   final bool allowPatientSelection;
@@ -18,6 +20,7 @@ class ConsultationFormStep extends StatefulWidget {
   const ConsultationFormStep({
     super.key,
     this.selectedPatient,
+    this.prefilledAppointment,
     required this.onNext,
     required this.onBack,
     this.allowPatientSelection = true,
@@ -63,6 +66,27 @@ class _ConsultationFormStepState extends State<ConsultationFormStep> {
       _selectedPatient = widget.selectedPatient;
       _patientSearchController.text =
           _formatPatientName(widget.selectedPatient!.fullName);
+    }
+    
+    if (widget.prefilledAppointment != null) {
+      _consultationType = widget.prefilledAppointment!.type;
+      _consultationDate = widget.prefilledAppointment!.date;
+      _isEmergency = _consultationType == 'Emergency';
+      if (_selectedPatient == null && widget.prefilledAppointment!.patientId != null) {
+        _loadPrefilledPatient(widget.prefilledAppointment!.patientId!);
+      }
+    }
+  }
+
+  Future<void> _loadPrefilledPatient(String patientId) async {
+    try {
+      final patient = await _patientService.getPatientById(patientId);
+      setState(() {
+        _selectedPatient = patient;
+        _patientSearchController.text = _formatPatientName(patient.fullName);
+      });
+    } catch (e) {
+      debugPrint('Error loading patient from appointment: $e');
     }
   }
 

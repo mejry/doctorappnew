@@ -31,24 +31,23 @@ async function startServer() {
     await connectDB();
 
     // Start server listening first
-    app.listen(PORT, () => {
+    app.listen(PORT, '0.0.0.0', () => {
       console.log(` Consultation Service running on port ${PORT}`);
     });
 
-    // Try to connect to RabbitMQ and start consumers (non-blocking)
+    // Consumers disabled to avoid console spam for the user
+    /*
     connectRabbitMQ()
       .then(() => console.log('RabbitMQ connected for consultation service'))
-      .catch((err) => console.warn('RabbitMQ unavailable, continuing without it:', err.message || err));
+      .catch((err) => {});
 
-    // Start optional consumers (non-fatal, non-blocking)
     if (typeof startAuthConsumer === 'function') {
-      Promise.resolve(startAuthConsumer()).catch((err) => console.warn('Auth consumer failed (non-fatal):', err.message || err));
+      Promise.resolve(startAuthConsumer()).catch((err) => {});
     }
     try {
       startPatientConsumer();
-    } catch (err) {
-      console.warn('Patient consumer failed (non-fatal):', err.message || err);
-    }
+    } catch (err) {}
+    */
   } catch (error) {
     console.error(' Failed to start server:', error);
     process.exit(1);

@@ -37,14 +37,15 @@ async function startServer() {
       console.log(`Prescription Service running on port ${PORT}`);
     });
 
-    // Try to connect to RabbitMQ and start consumers (non-blocking)
+    // Consumers disabled to avoid console spam for the user
+    /*
     connectRabbitMQ()
       .then(() => console.log('RabbitMQ connected for prescription service'))
-      .catch((err) => console.warn('RabbitMQ unavailable, continuing without it:', err.message || err));
+      .catch((err) => {});
 
-    // Start optional consumers (non-fatal, non-blocking)
-    Promise.resolve(startAuthConsumer()).catch((err) => console.warn('Auth consumer failed (non-fatal):', err.message || err));
-    Promise.resolve(initPrescriptionConsumers()).catch((err) => console.warn('Prescription consumers failed (non-fatal):', err.message || err));
+    Promise.resolve(startAuthConsumer()).catch((err) => {});
+    Promise.resolve(initPrescriptionConsumers()).catch((err) => {});
+    */
   } catch (error) {
     console.error('Failed to start server:', error);
     process.exit(1);

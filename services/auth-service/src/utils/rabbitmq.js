@@ -71,8 +71,7 @@ async function sendMessage(queueName, message) {
       { persistent: true }
     );
   } catch (error) {
-    logger.error(`Failed to send message to queue ${queueName}:`, error);
-    throw error;
+    logger.warn(`⚠️ Failed to send message to queue ${queueName}, but continuing without it.`);
   }
 }
 
@@ -94,8 +93,7 @@ async function consumeMessage(queueName, callback) {
       }
     });
   } catch (error) {
-    logger.error(`Failed to consume messages from queue ${queueName}:`, error);
-    throw error;
+    logger.warn(`⚠️ Failed to consume messages from queue ${queueName}, continuing without it.`);
   }
 }
 
@@ -110,8 +108,7 @@ async function publishToExchange(exchange, routingKey, message) {
       { persistent: true }
     );
   } catch (error) {
-    logger.error(`Failed to publish message to exchange ${exchange}:`, error);
-    throw error;
+    logger.warn(`⚠️ Failed to publish message to exchange ${exchange}, continuing without it.`);
   }
 }
 
@@ -140,5 +137,6 @@ module.exports = {
   closeConnection,
   // FIXED: Make sure these legacy methods are available
   sendToService: sendMessage, // Alias for backward compatibility
-  publish: publishToExchange   // Alias for backward compatibility
+  publish: publishToExchange,   // Alias for backward compatibility
+  rabbitMQ: { publish: publishToExchange } // Alias for email.js
 };

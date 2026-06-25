@@ -4,7 +4,11 @@ const ConsultationSchema = new mongoose.Schema({
   patientId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Patient',
-    required: true
+    required: false
+  },
+  patientName: {
+    type: String,
+    required: false
   },
   date: {
     type: Date,
@@ -27,11 +31,11 @@ const ConsultationSchema = new mongoose.Schema({
   },
   symptoms: {
     type: [String],
-    required: true
+    default: []
   },
   diagnosis: {
     type: [String],
-    required: true
+    default: []
   },
   prescribedAnalyses: {
     type: [String]

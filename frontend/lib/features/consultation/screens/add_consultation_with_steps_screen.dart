@@ -10,15 +10,18 @@ import 'package:frontend/features/patient/services/patient_service.dart';
 import 'package:frontend/features/patient/models/patient.dart';
 import 'package:frontend/features/consultation/widgets/consultation_form_step.dart';
 import 'package:frontend/features/patient/widgets/prescription_step.dart';
+import 'package:frontend/features/appointment/models/appointment.dart';
 
 class AddConsultationWithStepsScreen extends StatefulWidget {
   final String? patientId;
+  final Appointment? prefilledAppointment;
   final VoidCallback onBack;
   final Function(String consultationId, String prescriptionId)? onCompleted;
 
   const AddConsultationWithStepsScreen({
     super.key,
     this.patientId,
+    this.prefilledAppointment,
     required this.onBack,
     this.onCompleted,
   });
@@ -301,6 +304,7 @@ class _AddConsultationWithStepsScreenState
       case 1:
         return ConsultationFormStep(
           selectedPatient: _selectedPatient,
+          prefilledAppointment: widget.prefilledAppointment,
           onNext: (consultationData, patient) {
             setState(() {
               _consultationData = consultationData;
@@ -309,7 +313,7 @@ class _AddConsultationWithStepsScreenState
             _saveConsultationAndProceed();
           },
           onBack: widget.onBack,
-          allowPatientSelection: widget.patientId == null,
+          allowPatientSelection: widget.patientId == null && widget.prefilledAppointment == null,
         );
       case 2:
         if (_savedConsultationId == null) {

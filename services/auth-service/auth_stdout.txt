@@ -1,0 +1,32 @@
+
+> auth-service@1.0.0 dev
+> nodemon src/server.js
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/server.js`[39m
+✅ Auth service running on port 4000
+✅ MongoDB connected
+admin123
+mejriaziz917@gmail.com
+{
+  _id: new ObjectId("6a2c85423a939ca30cfcd09f"),
+  email: 'mejriaziz917@gmail.com',
+  password: '$2b$10$jX/QQSurx5FnQrV.SEiEfeysRXBGD8D1WOHfvctq6jNnQ1Mgjy9Uq',
+  firstname: 'roua',
+  lastname: 'youneb',
+  role: new ObjectId("6a2c8542258803ad25ad66a7"),
+  additionalRoles: [],
+  emailVerified: true,
+  twoFactorEnabled: false,
+  active: true,
+  passwordChangedAt: 2026-06-12T22:16:34.210Z,
+  createdAt: 2026-06-12T22:16:34.217Z,
+  updatedAt: 2026-06-23T00:03:25.599Z,
+  __v: 0,
+  lastLogin: 2026-06-23T00:03:25.598Z
+}
+[WARN] ⚠️ Failed to send message to queue auth-tokens, but continuing without it.
+[0mPOST /api/auth/refresh-token [32m200[0m 38.490 ms - 2095[0m

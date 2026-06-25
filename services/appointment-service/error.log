@@ -80,3 +80,60 @@
 {"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:09:42"}
 {"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2025-05-26 16:10:36"}
 {"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-21 00:49:02"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 01:01:32"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 01:14:52"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 10:50:13"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 10:50:33"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 10:56:36"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 10:56:56"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 11:00:59"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 11:01:19"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 11:13:55"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 11:14:15"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 12:03:37"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 12:03:57"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 12:04:54"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 12:05:19"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 13:04:54"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 13:05:14"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 13:42:53"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 13:43:13"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-23 13:43:14"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-23 13:43:34"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 20:51:03"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 20:51:23"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 21:59:23"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 21:59:44"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:00:38"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:00:58"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:11:26"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:28:29"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:28:49"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:37:51"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:38:11"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:38:41"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:39:01"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:42:25"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:42:45"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:16"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:23"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:34"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:37"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:47"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"error","message":"❌ Failed to auto-create consultation: Request failed with status code 401","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:52:57"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:53:17"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:17"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:36"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:53:37"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:48"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:50"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:51"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:53"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:54"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:55"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-25 22:53:57"}
+{"level":"error","message":"❌ Failed to connect to RabbitMQ after multiple attempts: ","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}

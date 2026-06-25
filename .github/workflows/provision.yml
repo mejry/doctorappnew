@@ -1,0 +1,29 @@
+name: Infrastructure Provisioning (Ansible)
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  provision-vps:
+    name: Configurer le VPS avec Ansible
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Ansible
+        run: sudo apt update && sudo apt install -y ansible
+
+      - name: Créer la clé SSH temporaire
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Lancer le Playbook Ansible sur le VPS
+        env:
+          ANSIBLE_HOST_KEY_CHECKING: "False"
+        run: |
+          ansible-playbook -i "${{ secrets.VPS_HOST }}," -u root ansible/playbook.yml

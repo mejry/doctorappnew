@@ -1,0 +1,84 @@
+---
+- name: "Provisionnement du VPS Maivita (Installation des prérequis)"
+  hosts: webservers
+  become: yes
+  
+  vars:
+    app_dir: "/opt/maivita"
+
+  tasks:
+    - name: Mettre à jour le cache APT
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+
+    - name: Installer les dépendances de base
+      apt:
+        name:
+          - apt-transport-https
+          - ca-certificates
+          - curl
+          - software-properties-common
+          - git
+          - ufw
+        state: present
+
+    - name: Ajouter la clé GPG officielle de Docker
+      apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
+
+    - name: Ajouter le dépôt Docker
+      apt_repository:
+        repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu {{ ansible_distribution_release }} stable
+        state: present
+
+    - name: Installer Docker et Docker Compose
+      apt:
+        name:
+          - docker-ce
+          - docker-ce-cli
+          - containerd.io
+          - docker-compose-plugin
+        state: present
+
+    - name: Activer et démarrer le service Docker
+      systemd:
+        name: docker
+        enabled: yes
+        state: started
+
+    - name: Créer le répertoire de l'application
+      file:
+        path: "{{ app_dir }}"
+        state: directory
+        mode: '0755'
+        owner: root
+
+    - name: Créer le répertoire de scripts (pour le backup)
+      file:
+        path: "{{ app_dir }}/scripts"
+        state: directory
+        mode: '0755'
+
+    - name: Configurer le Firewall (UFW) - Autoriser SSH
+      ufw:
+        rule: allow
+        name: OpenSSH
+
+    - name: Configurer le Firewall (UFW) - Autoriser HTTP/HTTPS (Nginx Proxy Manager)
+      ufw:
+        rule: allow
+        port: '80,443,81'
+        proto: tcp
+
+    - name: Activer le Firewall (UFW)
+      ufw:
+        state: enabled
+
+    - name: Mettre en place le Cron de Backup MongoDB (Tous les jours à 2h00)
+      cron:
+        name: "Backup quotidien MongoDB Maivita"
+        minute: "0"
+        hour: "2"
+        job: "bash {{ app_dir }}/scripts/backup.sh >> /var/log/maivita-backup.log 2>&1"

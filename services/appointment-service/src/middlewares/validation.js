@@ -45,7 +45,7 @@ function validateCreateAppointment(req, res, next) {
     notes: Joi.string().allow(null, '')
   });
   
-  const { error, value } = schema.validate(req.body, { abortEarly: false });
+  const { error, value } = schema.validate(req.body, { abortEarly: false, stripUnknown: true });
   
   if (error) {
     const errors = error.details.map(detail => detail.message);
@@ -112,7 +112,7 @@ function validateUpdateAppointment(req, res, next) {
     'object.min': 'At least one field must be provided for update'
   });
   
-  const { error, value } = schema.validate(req.body, { abortEarly: false });
+  const { error, value } = schema.validate(req.body, { abortEarly: false, stripUnknown: true });
   
   if (error) {
     const errors = error.details.map(detail => detail.message);

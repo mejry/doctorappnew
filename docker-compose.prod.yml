@@ -1,0 +1,165 @@
+version: '3.8'
+
+services:
+
+  mongo:
+    image: mongo:7.0
+    container_name: Maivita-mongo
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USERNAME:-admin}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_DB_NAME:-Maivita}
+    volumes:
+      - mongodb-data:/data/db
+      - mongodb-config:/data/configdb
+    networks:
+      - Maivita-network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7.2-alpine
+    container_name: Maivita-redis
+    restart: unless-stopped
+    command: /bin/sh -c 'redis-server --appendonly yes --requirepass "$$REDIS_PASSWORD"'
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD}
+    volumes:
+      - redis-data:/data
+    networks:
+      - Maivita-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: Maivita-backend
+    restart: unless-stopped
+    environment:
+      NODE_ENV: ${NODE_ENV:-production}
+      PORT: ${PORT:-5000}
+      MONGO_URI: mongodb://${MONGO_ROOT_USERNAME:-admin}:${MONGO_ROOT_PASSWORD}@mongo:27017/${MONGO_DB_NAME:-Maivita}?authSource=admin
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_PASSWORD: ${REDIS_PASSWORD}
+      JWT_SECRET: ${JWT_SECRET}
+      SMTP_HOST: ${SMTP_HOST}
+      SMTP_PORT: ${SMTP_PORT}
+      SMTP_USER: ${SMTP_USER}
+      SMTP_PASS: ${SMTP_PASS}
+      EMAIL_FROM: ${EMAIL_FROM}
+    depends_on:
+      mongo:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - Maivita-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5000/api/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: ./front
+      dockerfile: Dockerfile
+    container_name: Maivita-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    # Plus besoin de port exposé, le reverse proxy s'en charge
+    # ports:
+    #   - "8080:80"
+    networks:
+      - Maivita-network
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  mongo-express:
+    image: mongo-express:1.0.2
+    container_name: Maivita-mongo-express
+    restart: unless-stopped
+  
+    ports:
+      - "127.0.0.1:8082:8081"
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://${MONGO_ROOT_USERNAME:-admin}:${MONGO_ROOT_PASSWORD}@mongo:27017/${MONGO_DB_NAME:-Maivita}?authSource=admin
+      ME_CONFIG_MONGODB_ADMINUSERNAME: ${MONGO_ROOT_USERNAME:-admin}
+      ME_CONFIG_MONGODB_ADMINPASSWORD: ${MONGO_ROOT_PASSWORD}
+      ME_CONFIG_BASICAUTH_USERNAME: ${ME_BASICAUTH_USERNAME:-admin}
+      ME_CONFIG_BASICAUTH_PASSWORD: ${ME_BASICAUTH_PASSWORD}
+      ME_CONFIG_MONGODB_ENABLE_ADMIN: 'true'
+      ME_CONFIG_MONGODB_AUTH_DATABASE: admin
+    depends_on:
+      mongo:
+        condition: service_healthy
+    networks:
+      - Maivita-network
+
+  nginx-proxy-manager:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: Maivita-proxy
+    restart: unless-stopped
+    ports:
+      - '80:80'    
+      - '443:443'  
+      - '81:81'    
+    environment:
+      DB_MYSQL_HOST: "npm-db"
+      DB_MYSQL_PORT: 3306
+      DB_MYSQL_USER: ${NPM_DB_MYSQL_USER:-npm}
+      DB_MYSQL_PASSWORD: ${NPM_DB_MYSQL_PASSWORD:-npm_mysql_password}
+      DB_MYSQL_NAME: ${NPM_DB_MYSQL_NAME:-npm}
+    volumes:
+      - npm-data:/data
+      - npm-letsencrypt:/etc/letsencrypt
+    networks:
+      - Maivita-network
+    depends_on:
+      - npm-db
+
+  npm-db:
+    image: 'jc21/mariadb-aria:latest'
+    container_name: Maivita-proxy-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: npm_mysql_root_password
+      MYSQL_DATABASE: ${NPM_DB_MYSQL_NAME:-npm}
+      MYSQL_USER: ${NPM_DB_MYSQL_USER:-npm}
+      MYSQL_PASSWORD: ${NPM_DB_MYSQL_PASSWORD:-npm_mysql_password}
+    volumes:
+      - npm-db-data:/var/lib/mysql
+    networks:
+      - Maivita-network
+
+networks:
+  Maivita-network:
+    driver: bridge
+
+volumes:
+  mongodb-data:
+    driver: local
+  mongodb-config:
+    driver: local
+  redis-data:
+    driver: local
+  npm-data:
+    driver: local
+  npm-letsencrypt:
+    driver: local
+  npm-db-data:
+    driver: local

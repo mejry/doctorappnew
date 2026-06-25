@@ -77,8 +77,10 @@ class _PrescriptionFormScreenState extends State<PrescriptionFormScreen> {
 
       final consultation =
           await _consultationService.getConsultationById(widget.consultationId);
-      final patient =
-          await _patientService.getPatientById(consultation.patientId);
+      Patient? patient;
+      if (consultation.patientId != null) {
+        patient = await _patientService.getPatientById(consultation.patientId!);
+      }
 
       setState(() {
         _consultation = consultation;

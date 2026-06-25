@@ -3,7 +3,7 @@ const helmet = require('helmet');
 const xss = require('xss-clean');
 const mongoSanitize = require('express-mongo-sanitize');
 const hpp = require('hpp');
-const cors = require('cors');
+
 const logger = require('../utils/logger');
 
 module.exports = {
@@ -12,15 +12,7 @@ module.exports = {
    * @param {Object} app - Express app
    */
   applySecurityMiddleware: (app) => {
-    // Enable CORS
-    app.use(cors({
-      origin: process.env.CLIENT_URL || 'http://localhost:3000',
-      credentials: true, // Allow cookies with CORS
-      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-      allowedHeaders: ['Content-Type', 'Authorization'],
-      exposedHeaders: ['Content-Length', 'X-Request-Id'],
-      maxAge: 86400 // Cache preflight requests for 24 hours
-    }));
+    // CORS handled by API Gateway
 
     // Set security HTTP headers
     app.use(helmet());

@@ -30,7 +30,10 @@ async function connectRabbitMQ() {
 // Publish events to RabbitMQ
 async function publishEvent(eventType, routingKey, data) {
   try {
-    if (!channel) await connectRabbitMQ();
+    if (!channel) {
+      console.warn(`⚠️ RabbitMQ not connected. Skipping event: ${eventType}`);
+      return;
+    }
 
     const message = {
       eventId: uuidv4(),
@@ -48,8 +51,8 @@ async function publishEvent(eventType, routingKey, data) {
 
     console.log(`📤 Event published: ${eventType}`);
   } catch (error) {
-    console.error('Failed to publish event:', error);
-    throw error;
+    console.warn(`⚠️ Failed to publish event ${eventType}, but continuing without it.`);
+    // Do not throw error so the API doesn't return 500
   }
 }
 
