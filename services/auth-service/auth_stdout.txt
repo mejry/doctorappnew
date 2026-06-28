@@ -12,21 +12,78 @@
 admin123
 mejriaziz917@gmail.com
 {
-  _id: new ObjectId("6a2c85423a939ca30cfcd09f"),
+  _id: new ObjectId("69406aca656236d9e2dc48f5"),
   email: 'mejriaziz917@gmail.com',
-  password: '$2b$10$jX/QQSurx5FnQrV.SEiEfeysRXBGD8D1WOHfvctq6jNnQ1Mgjy9Uq',
-  firstname: 'roua',
-  lastname: 'youneb',
-  role: new ObjectId("6a2c8542258803ad25ad66a7"),
+  password: '$2b$10$syg2/yZ4wRiCgGQNT0.CBea3Np6XyADjbqHF0HHn2Bb21ckLvlUA6',
+  firstname: 'mohamed aziz',
+  lastname: 'mejri',
+  role: new ObjectId("69406aca5c0de3fdab6ed751"),
   additionalRoles: [],
   emailVerified: true,
   twoFactorEnabled: false,
   active: true,
-  passwordChangedAt: 2026-06-12T22:16:34.210Z,
-  createdAt: 2026-06-12T22:16:34.217Z,
-  updatedAt: 2026-06-23T00:03:25.599Z,
+  passwordChangedAt: 2026-05-23T14:28:38.428Z,
+  createdAt: 2025-12-15T20:08:42.228Z,
+  updatedAt: 2026-06-28T16:57:27.167Z,
   __v: 0,
-  lastLogin: 2026-06-23T00:03:25.598Z
+  lastLogin: 2026-06-28T15:13:53.080Z,
+  twoFactorCode: '696878',
+  twoFactorExpires: 2026-06-28T17:07:27.165Z
 }
-[WARN] ⚠️ Failed to send message to queue auth-tokens, but continuing without it.
-[0mPOST /api/auth/refresh-token [32m200[0m 38.490 ms - 2095[0m
+Login attempt for: mejriaziz917@gmail.com
+Found user: new ObjectId("69406aca656236d9e2dc48f5")
+User role: {
+  _id: new ObjectId("69406aca5c0de3fdab6ed751"),
+  name: 'Admin',
+  __v: 0,
+  assignedUsers: [],
+  createdAt: 2025-12-15T20:08:42.093Z,
+  permissions: [
+    'view_user',           'create_user',
+    'update_user',         'delete_user',
+    'view_role',           'create_role',
+    'update_role',         'delete_role',
+    'view_patient',        'create_patient',
+    'update_patient',      'delete_patient',
+    'view_consultation',   'create_consultation',
+    'update_consultation', 'delete_consultation',
+    'view_appointment',    'create_appointment',
+    'update_appointment',  'delete_appointment',
+    'view_prescription',   'create_prescription',
+    'update_prescription', 'delete_prescription',
+    'view_medication',     'create_medication',
+    'update_medication',   'delete_medication'
+  ],
+  updatedAt: 2026-06-28T17:01:56.066Z
+}
+Password match: true
+🔍 2FA Configuration:
+   - User 2FA enabled: false
+   - FORCING 2FA FOR ALL USERS (test mode)
+📱 2FA REQUIRED - Generating and sending code
+Email sent successfully to mejriaziz917@gmail.com, template: twoFactorCode
+✅ 2FA code sent successfully to: mejriaziz917@gmail.com
+📧 CODE FOR TESTING: 462853
+📱 Returning 2FA required response (NO TOKENS)
+[0mPOST /api/auth/login [32m200[0m 2764.713 ms - 115[0m
+🔢 Verifying 2FA for user: 69406aca656236d9e2dc48f5 with code: 462853
+✅ 2FA code verified successfully
+[INFO] ✅ Connected to RabbitMQ
+✅ 2FA verification complete - returning tokens
+[0mPOST /api/auth/2fa/verify [32m200[0m 208.606 ms - 3892[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 49.456 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 49.147 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 15.355 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 15.498 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 39.224 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 10.142 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 32.395 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 74.871 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 25.538 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 8.769 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 10.363 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 21.626 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 23.321 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 9.411 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 9.291 ms - 2095[0m
+[0mPOST /api/auth/refresh-token [32m200[0m 22.547 ms - 2095[0m

@@ -9,7 +9,7 @@ process.on('unhandledRejection', (reason) => {
   fs.writeFileSync(path.join(__dirname, '../REJECTION_LOG.txt'), String(reason));
 });
 
-require("dotenv").config({ path: "./.env" });
+require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const morgan = require("morgan");
@@ -20,7 +20,6 @@ const logConsumer = require("./services/logConsumer");
 const userRoutes = require("./routes/userRoutes");
 
 // Default environment variables if not set
-require("dotenv").config({ path: "./.env" });
 process.env.PORT = process.env.PORT || "4000";
 //process.env.JWT_SECRET = process.env.JWT_SECRET || 'azertyuiophgfdsdfghjk745120';
 process.env.JWT_SECRET = process.env.JWT_SECRET || "jhfduzeajhdsqygiaz";
@@ -92,7 +91,7 @@ app.use((req, res) => {
 });
 
 // Start server
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`✅ Auth service running on port ${PORT}`);
 });

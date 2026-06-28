@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 
 class Appointment {
   final String? id;
+  final String? patientId;
   final String patientName;
   final String? patientEmail;
   final String? patientPhone;
@@ -18,6 +19,7 @@ class Appointment {
 
   Appointment({
     this.id,
+    this.patientId,
     required this.patientName,
     this.patientEmail,
     this.patientPhone,
@@ -39,7 +41,8 @@ class Appointment {
       if (json['date'] is String) {
         parsedDate = DateTime.parse(json['date']);
       } else if (json['date'] is Map) {
-        parsedDate = DateTime.parse(json['date']['\$date'] ?? json['date']['date']);
+        parsedDate =
+            DateTime.parse(json['date']['\$date'] ?? json['date']['date']);
       } else {
         parsedDate = DateTime.now();
       }
@@ -48,6 +51,10 @@ class Appointment {
 
       return Appointment(
         id: json['_id'] ?? json['id'],
+        patientId: json['patientId'] ??
+            json['patient']?['_id'] ??
+            json['patient']?['id'] ??
+            json['patient']?['patientId'],
         patientName: json['patientName'] ?? '',
         patientEmail: patientContact?['email'],
         patientPhone: patientContact?['phone'],
@@ -82,6 +89,7 @@ class Appointment {
 
     return {
       if (id != null) 'id': id,
+      if (patientId != null) 'patientId': patientId,
       'patientName': patientName,
       if (contact.isNotEmpty) 'patientContact': contact,
       'doctorId': doctorId,

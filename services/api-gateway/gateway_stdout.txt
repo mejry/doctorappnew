@@ -1,0 +1,5 @@
+Using gateway ports: http=8090, admin=9878
+2026-06-28T17:02:18.723Z [EG:gateway] [33mwarn[39m: express-gateway-plugin-rewrite plugin hasn't provided a schema. Validation for this plugin will be skipped.
+2026-06-28T17:02:19.493Z [EG:plugins] [32minfo[39m: Loaded plugin express-gateway-plugin-rewrite from package express-gateway-plugin-rewrite
+2026-06-28T17:02:20.523Z [EG:gateway] [32minfo[39m: gateway http server listening on :::8090
+2026-06-28T17:02:20.528Z [EG:admin] [32minfo[39m: admin http server listening on ::1:9878

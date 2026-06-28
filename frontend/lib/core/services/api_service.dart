@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
 
 class ApiService {
-  static const String _baseUrl = 'http://localhost:8080';
+  static const String _baseUrl = 'http://localhost:8090';
   static const Duration _timeout = Duration(seconds: 30);
 
   static final ApiService _instance = ApiService._internal();
@@ -12,6 +12,7 @@ class ApiService {
   ApiService._internal();
 
   String? _accessToken;
+  // ignore: unused_field
   String? _refreshToken;
 
   void setTokens(String accessToken, String refreshToken) {
@@ -46,7 +47,6 @@ class ApiService {
     }
 
     try {
-
       final response = await http
           .get(
             uri,
@@ -54,7 +54,6 @@ class ApiService {
           )
           .timeout(_timeout);
 
-    
       return response;
     } catch (e) {
       debugPrint('GET Error: $e');
@@ -68,8 +67,6 @@ class ApiService {
     final url = Uri.parse('$_baseUrl$endpoint');
 
     try {
-  
-
       final response = await http
           .post(
             url,
@@ -77,8 +74,6 @@ class ApiService {
             body: jsonEncode(data),
           )
           .timeout(_timeout);
-
-    
 
       return response;
     } catch (e) {
@@ -93,8 +88,6 @@ class ApiService {
     final url = Uri.parse('$_baseUrl$endpoint');
 
     try {
- 
-
       final response = await http
           .put(
             url,
@@ -102,8 +95,6 @@ class ApiService {
             body: jsonEncode(data),
           )
           .timeout(_timeout);
-
-
 
       return response;
     } catch (e) {
@@ -118,15 +109,12 @@ class ApiService {
     final url = Uri.parse('$_baseUrl$endpoint');
 
     try {
-
       final response = await http
           .delete(
             url,
             headers: requireAuth ? _authHeaders : _baseHeaders,
           )
           .timeout(_timeout);
-
-  
 
       return response;
     } catch (e) {

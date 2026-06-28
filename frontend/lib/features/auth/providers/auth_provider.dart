@@ -340,6 +340,11 @@ class AuthProvider with ChangeNotifier {
   bool get canCreateMedication => hasPermission('create_medication');
   bool get canUpdateMedication => hasPermission('update_medication');
   bool get canDeleteMedication => hasPermission('delete_medication');
+  // Appointment permissions
+  bool get canViewAppointments => hasPermission('view_appointment');
+  bool get canCreateAppointment => hasPermission('create_appointment');
+  bool get canUpdateAppointment => hasPermission('update_appointment');
+  bool get canCancelAppointment => hasPermission('cancel_appointment');
   // Méthodes privées
   void _setStatus(AuthStatus status) {
     debugPrint('🔄 Status change: $_status → $status');

@@ -1551,3 +1551,81 @@
 {"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}
 {"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}
 {"level":"warn","message":"⚠️ Failed to connect to RabbitMQ for exchange, skipping event for logs","service":"appointment-service","timestamp":"2026-06-25 22:54:09"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-26 00:41:21"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-26 00:41:21"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-26 00:41:23"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-26 00:41:23"}
+{"level":"info","message":"Received shutdown signal, closing connections...","service":"appointment-service","timestamp":"2026-06-26 00:47:42"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-26 00:48:59"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-26 00:48:59"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-26 00:48:59"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-26 00:48:59"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-28 13:55:32"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-28 13:55:33"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-28 13:55:35"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-28 14:13:52"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-28 14:13:52"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-28 14:13:52"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-28 14:13:52"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-28 14:24:19"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-28 14:24:19"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-28 14:24:19"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-28 14:24:19"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-28 14:38:47"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-28 14:38:47"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-28 14:38:47"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-28 14:38:47"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-28 16:37:52"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-28 16:37:52"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-28 16:37:52"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-28 16:37:53"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-28 16:38:25"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-28 16:38:25"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-28 16:38:26"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-28 17:09:26"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-28 17:09:26"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-28 17:09:26"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-28 17:09:26"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-28 17:16:33"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-28 17:16:33"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-28 17:16:33"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-28 17:16:33"}
+{"level":"info","message":"User authenticated: ID=6a11ba5de15d01b8ecdfe650, Role=Doctor, Permissions=[view_patient, create_patient, update_patient, view_consultation, create_consultation, update_consultation, view_appointment, create_appointment, update_appointment]","service":"appointment-service","timestamp":"2026-06-28 17:16:33"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 6a11ba5de15d01b8ecdfe650 with role Doctor","service":"appointment-service","timestamp":"2026-06-28 17:16:33"}
+{"level":"info","message":"Permission granted: User 6a11ba5de15d01b8ecdfe650 has permission: view_appointment","service":"appointment-service","timestamp":"2026-06-28 17:16:33"}
+{"level":"info","message":"Doctor filter applied: doctorId=6a11ba5de15d01b8ecdfe650","service":"appointment-service","timestamp":"2026-06-28 17:16:33"}
+{"level":"info","message":"Found 0 appointments matching query","service":"appointment-service","timestamp":"2026-06-28 17:16:33"}
+{"level":"info","message":"Appointments retrieved: 0 appointments by user 6a11ba5de15d01b8ecdfe650 (Doctor)","service":"appointment-service","timestamp":"2026-06-28 17:16:33"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2026-06-28 17:16:33"}
+{"level":"error","message":"RabbitMQ connection error: read ECONNRESET","service":"appointment-service","timestamp":"2026-06-28 17:48:42"}
+{"level":"warn","message":"RabbitMQ connection closed","service":"appointment-service","timestamp":"2026-06-28 17:48:42"}
+{"level":"info","message":"Attempting to reconnect to RabbitMQ...","service":"appointment-service","timestamp":"2026-06-28 17:48:46"}
+{"level":"warn","message":"RabbitMQ connection attempt 1 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-28 17:48:46"}
+{"level":"warn","message":"RabbitMQ connection attempt 2 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-28 17:48:50"}
+{"level":"warn","message":"RabbitMQ connection attempt 3 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-28 17:48:54"}
+{"level":"warn","message":"RabbitMQ connection attempt 4 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-28 17:48:58"}
+{"level":"warn","message":"RabbitMQ connection attempt 5 failed. Retrying in 4000ms...","service":"appointment-service","timestamp":"2026-06-28 17:49:02"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2026-06-28 17:49:06"}
+{"level":"info","message":"TokenCache initialized with secret key length: 18","service":"appointment-service","timestamp":"2026-06-28 19:02:29"}
+{"level":"info","message":"Email transporter initialized successfully","service":"appointment-service","timestamp":"2026-06-28 19:02:29"}
+{"level":"info","message":"MongoDB connected successfully","service":"appointment-service","timestamp":"2026-06-28 19:02:29"}
+{"level":"info","message":"Appointment service running on port 3001","service":"appointment-service","timestamp":"2026-06-28 19:02:29"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-28 19:05:37"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-28 19:05:37"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-28 19:05:37"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-28 19:05:37"}
+{"level":"info","message":"User authenticated: ID=69406aca656236d9e2dc48f5, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-28 19:05:37"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 69406aca656236d9e2dc48f5 with role Admin","service":"appointment-service","timestamp":"2026-06-28 19:05:37"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-28 19:05:37"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-28 19:05:37"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 69406aca656236d9e2dc48f5 (Admin)","service":"appointment-service","timestamp":"2026-06-28 19:05:37"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"appointment-service","timestamp":"2026-06-28 19:05:37"}
+{"level":"info","message":"GET /api/appointments","service":"appointment-service","timestamp":"2026-06-28 19:13:10"}
+{"level":"info","message":"Token received: eyJhbGciOiJIUzI...","service":"appointment-service","timestamp":"2026-06-28 19:13:10"}
+{"level":"error","message":"Token verification failed: invalid signature","service":"appointment-service","timestamp":"2026-06-28 19:13:10"}
+{"level":"warn","message":"⚠️ DEVELOPMENT MODE: Decoding token without verification","service":"appointment-service","timestamp":"2026-06-28 19:13:10"}
+{"level":"info","message":"User authenticated: ID=69406aca656236d9e2dc48f5, Role=Admin, Permissions=[view_user, create_user, update_user, delete_user, view_role, create_role, update_role, delete_role, view_patient, create_patient, update_patient, delete_patient, view_consultation, create_consultation, update_consultation, delete_consultation, view_appointment, create_appointment, update_appointment, delete_appointment, view_prescription, create_prescription, update_prescription, delete_prescription, view_medication, create_medication, update_medication, delete_medication]","service":"appointment-service","timestamp":"2026-06-28 19:13:10"}
+{"level":"info","message":"Checking permission \"view_appointment\" for user 69406aca656236d9e2dc48f5 with role Admin","service":"appointment-service","timestamp":"2026-06-28 19:13:10"}
+{"level":"info","message":"User is Admin, granting permission","service":"appointment-service","timestamp":"2026-06-28 19:13:10"}
+{"level":"info","message":"Found 1 appointments matching query","service":"appointment-service","timestamp":"2026-06-28 19:13:10"}
+{"level":"info","message":"Appointments retrieved: 1 appointments by user 69406aca656236d9e2dc48f5 (Admin)","service":"appointment-service","timestamp":"2026-06-28 19:13:10"}

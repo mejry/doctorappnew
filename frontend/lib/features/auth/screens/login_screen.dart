@@ -1,7 +1,6 @@
 // lib/features/auth/screens/login_screen.dart - VERSION MISE À JOUR
 import 'package:flutter/material.dart';
 import 'package:frontend/features/auth/widgets/auth_card.dart';
-import 'package:frontend/features/dashboard/screens/dashbaord_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

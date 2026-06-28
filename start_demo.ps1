@@ -1,5 +1,5 @@
 $ErrorActionPreference = "Stop"
-$basePath = "c:\Users\Manita\Downloads\appdoctor\doctorappnew-main\doctor-app-system"
+$basePath = "C:\Users\azyz\Desktop\new_doctor\doctorappnew"
 
 $services = @(
     "auth-service",
@@ -11,6 +11,24 @@ $services = @(
 )
 
 Write-Host "=======================================================" -ForegroundColor Cyan
+Write-Host "0. NETTOYAGE DES ANCIENS PORTS ET PROCESSUS" -ForegroundColor Cyan
+Write-Host "=======================================================" -ForegroundColor Cyan
+
+$ports = @(4000, 8002, 8003, 8004, 3001, 8090, 8091)
+foreach ($port in $ports) {
+    $connections = Get-NetTCPConnection -LocalPort $port -State Listen -ErrorAction SilentlyContinue
+    if ($connections) {
+        foreach ($conn in $connections) {
+            $processId = $conn.OwningProcess
+            if ($processId -gt 0) {
+                Write-Host "-> Port $port est utilisé par le PID $processId. Arrêt du processus..." -ForegroundColor Yellow
+                Stop-Process -Id $processId -Force -ErrorAction SilentlyContinue
+            }
+        }
+    }
+}
+
+Write-Host "`n=======================================================" -ForegroundColor Cyan
 Write-Host "1. INSTALLATION DES DÉPENDANCES BACKEND (npm install)" -ForegroundColor Cyan
 Write-Host "=======================================================" -ForegroundColor Cyan
 

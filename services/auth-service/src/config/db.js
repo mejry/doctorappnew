@@ -6,9 +6,9 @@ const LogEntry = require('../models/LogEntry');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true
+    const mongoUri = process.env.MONGO_URI || process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/auth-service';
+    await mongoose.connect(mongoUri, {
+      serverSelectionTimeoutMS: 5000
     });
     console.log('✅ MongoDB connected');
     await initializeRolesAndAdmin();

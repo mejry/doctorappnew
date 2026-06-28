@@ -1,27 +1,26 @@
-const express = require('express');
-const dotenv = require('dotenv');
-const connectDB = require('./database/database');
-const patientRoutes = require('./routes/patientRoutes');
-const errorHandler = require('./middlewares/errorMiddleware');
-const { connectRabbitMQ } = require('./utils/rabbit');
-const startAuthConsumer = require('./events/consumers/authConsumer');
-
+const path = require("path");
+const express = require("express");
+const dotenv = require("dotenv");
+const connectDB = require("./database/database");
+const patientRoutes = require("./routes/patientRoutes");
+const errorHandler = require("./middlewares/errorMiddleware");
+const { connectRabbitMQ } = require("./utils/rabbit");
+const startAuthConsumer = require("./events/consumers/authConsumer");
 
 // Load env vars
-dotenv.config({ path: './config/.env' });
+dotenv.config({ path: path.resolve(__dirname, "../.env") });
 
 const app = express();
-const PORT = process.env.PORT || 8002;
+const PORT = process.env.PORT || 8005;
 
 // Middleware
 app.use(express.json());
 
 // Routes
-app.use('/api/patients', patientRoutes);
+app.use("/api/patients", patientRoutes);
 
 // Error handling
 app.use(errorHandler);
-
 
 // Start server
 async function startServer() {
@@ -42,7 +41,7 @@ async function startServer() {
       console.log(` Patient Service running on port ${PORT}`);
     });
   } catch (error) {
-    console.error(' Failed to start server:', error);
+    console.error(" Failed to start server:", error);
     process.exit(1);
   }
 }

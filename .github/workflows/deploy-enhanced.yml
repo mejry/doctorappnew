@@ -1,4 +1,4 @@
-name: MAivita CI/CD Pipeline
+name: Treanos CI/CD Pipeline
 
 on:
   push:

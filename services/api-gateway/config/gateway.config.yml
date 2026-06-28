@@ -1,9 +1,9 @@
 # gateway.config.yml - VERSION CORRIGÉE COMPLÈTE
 http:
-  port: 8080
+  port: 8090
 
 admin:
-  port: 9876
+  port: 9878
   host: localhost
 
 apiEndpoints:
@@ -39,7 +39,7 @@ serviceEndpoints:
   auth:
     url: 'http://127.0.0.1:4000'
   patients:
-    url: 'http://127.0.0.1:8002'
+    url: 'http://127.0.0.1:8005'
   consultations:
     url: 'http://127.0.0.1:8003'
   prescriptions:

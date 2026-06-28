@@ -66,7 +66,7 @@ EXPOSE 3000
 
 # Healthcheck — K8s probes are preferred, but this is a safety net
 HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
-  CMD curl -f http://localhost:5000/api/health || exit 1
+  CMD curl -f http://localhost:3000/api/health || exit 1
 
 # Use tini as PID 1 for proper signal handling (SIGTERM)
 ENTRYPOINT ["tini", "--"]

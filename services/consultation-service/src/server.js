@@ -1,17 +1,17 @@
-const express = require('express');
-const dotenv = require('dotenv');
-const connectDB = require('./database/database');
+const path = require("path");
+const express = require("express");
+const dotenv = require("dotenv");
+const connectDB = require("./database/database");
 
-const consultationRoutes = require('./routes/consultationRoutes');
+const consultationRoutes = require("./routes/consultationRoutes");
 
-const errorHandler = require('./middlewares/errorMiddleware');
-const { startPatientConsumer } = require('./events/consumers/patientConsumer');
-const { connectRabbitMQ } = require('./utils/rabbit'); 
-const startAuthConsumer = require('./events/consumers/authConsumer');
-
+const errorHandler = require("./middlewares/errorMiddleware");
+const { startPatientConsumer } = require("./events/consumers/patientConsumer");
+const { connectRabbitMQ } = require("./utils/rabbit");
+const startAuthConsumer = require("./events/consumers/authConsumer");
 
 // Load env vars
-dotenv.config({ path: './config/.env' });
+dotenv.config({ path: path.resolve(__dirname, "../.env") });
 
 const app = express();
 const PORT = process.env.PORT || 8003; // Changement du port par défaut
@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 8003; // Changement du port par défaut
 app.use(express.json());
 
 // Routes
-app.use('/api/consultations', consultationRoutes); // Changement du point de terminaison
+app.use("/api/consultations", consultationRoutes); // Changement du point de terminaison
 
 // Error handling
 app.use(errorHandler);
@@ -31,7 +31,7 @@ async function startServer() {
     await connectDB();
 
     // Start server listening first
-    app.listen(PORT, '0.0.0.0', () => {
+    app.listen(PORT, "0.0.0.0", () => {
       console.log(` Consultation Service running on port ${PORT}`);
     });
 
@@ -49,7 +49,7 @@ async function startServer() {
     } catch (err) {}
     */
   } catch (error) {
-    console.error(' Failed to start server:', error);
+    console.error(" Failed to start server:", error);
     process.exit(1);
   }
 }

@@ -85,32 +85,28 @@ class _SidebarMenuState extends State<SidebarMenu> {
         (auth) => true, // Toujours accessible
       ),
 
-      // Patient - visible si permission view_patient
       _MenuItem(
         'Patient',
         'assets/icons/global/patient_icon.png',
-        (auth) => auth.hasPermission('view_patient'),
+        (auth) => auth.canViewPatients || auth.canCreatePatient,
       ),
 
-      // Consultation - visible si permission view_consultation
       _MenuItem(
         'Consultation',
         Icons.medical_services_outlined,
-        (auth) => auth.hasPermission('view_consultation'),
+        (auth) => auth.canViewConsultations || auth.canCreateConsultation,
       ),
 
-      // Appointments - visible si permission view_appointment
       _MenuItem(
         'Appointment Cycle',
         Icons.event_available_outlined,
-        (auth) => auth.hasPermission('view_appointment'),
+        (auth) => auth.canViewAppointments || auth.canCreateAppointment,
       ),
 
-      // Medications - visible si permission view_medication
       _MenuItem(
         'Medications',
         'assets/icons/global/medication_icon.png',
-        (auth) => auth.hasPermission('view_medication'),
+        (auth) => auth.canViewMedications || auth.canCreateMedication,
       ),
 
       // ✅ MODIFIÉ: Settings - TOUJOURS visible car Account Information et Security sont pour tous
