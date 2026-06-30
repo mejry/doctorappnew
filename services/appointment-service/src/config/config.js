@@ -6,7 +6,7 @@ module.exports = {
   port: process.env.PORT || 3001,
   
   mongo: {
-    url: process.env.MONGODB_URI || 'mongodb://localhost:27017/appointment-service',
+    url: process.env.MONGODB_URI || process.env.MONGO_URI || 'mongodb://localhost:27017/appointment-service',
     options: {
       useNewUrlParser: true,
       useUnifiedTopology: true

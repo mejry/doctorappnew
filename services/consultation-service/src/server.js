@@ -19,6 +19,14 @@ const PORT = process.env.PORT || 8003; // Changement du port par défaut
 // Middleware
 app.use(express.json());
 
+app.get("/health", (req, res) => {
+  res.status(200).json({
+    service: "consultation-service",
+    status: "healthy",
+    timestamp: new Date(),
+  });
+});
+
 // Routes
 app.use("/api/consultations", consultationRoutes); // Changement du point de terminaison
 

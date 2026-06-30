@@ -1,7 +1,7 @@
 // lib/config/api_config.dart
 class ApiConfig {
   // 🌐 URL du Gateway Express
-  static const String baseUrl = 'http://localhost:8090';
+  static const String baseUrl = '';
 
   // 🔐 Endpoints d'authentification
   static const String authBaseUrl = '$baseUrl/api/auth';

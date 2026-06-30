@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
 
 class ApiService {
-  static const String _baseUrl = 'http://localhost:8090';
+  static const String _fallbackBaseUrl = 'http://localhost:8090';
   static const Duration _timeout = Duration(seconds: 30);
 
   static final ApiService _instance = ApiService._internal();
@@ -35,13 +35,26 @@ class ApiService {
         if (_accessToken != null) 'Authorization': 'Bearer $_accessToken',
       };
 
+  Uri _buildUri(String endpoint) {
+    final parsedEndpoint = Uri.parse(endpoint);
+    if (parsedEndpoint.hasScheme) {
+      return parsedEndpoint;
+    }
+
+    if (kIsWeb) {
+      return Uri.base.resolve(endpoint);
+    }
+
+    return Uri.parse('$_fallbackBaseUrl$endpoint');
+  }
+
   // GET request générique
   Future<http.Response> get(
     String endpoint, {
     bool requireAuth = true,
     Map<String, String>? queryParams,
   }) async {
-    var uri = Uri.parse('$_baseUrl$endpoint');
+    var uri = _buildUri(endpoint);
     if (queryParams != null) {
       uri = uri.replace(queryParameters: queryParams);
     }
@@ -64,7 +77,7 @@ class ApiService {
   // POST request générique
   Future<http.Response> post(String endpoint, Map<String, dynamic> data,
       {bool requireAuth = true}) async {
-    final url = Uri.parse('$_baseUrl$endpoint');
+    final url = _buildUri(endpoint);
 
     try {
       final response = await http
@@ -85,7 +98,7 @@ class ApiService {
   // PUT request générique
   Future<http.Response> put(String endpoint, Map<String, dynamic> data,
       {bool requireAuth = true}) async {
-    final url = Uri.parse('$_baseUrl$endpoint');
+    final url = _buildUri(endpoint);
 
     try {
       final response = await http
@@ -106,7 +119,7 @@ class ApiService {
   // DELETE request générique
   Future<http.Response> delete(String endpoint,
       {bool requireAuth = true}) async {
-    final url = Uri.parse('$_baseUrl$endpoint');
+    final url = _buildUri(endpoint);
 
     try {
       final response = await http

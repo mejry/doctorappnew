@@ -37,15 +37,15 @@ apiEndpoints:
 
 serviceEndpoints:
   auth:
-    url: 'http://127.0.0.1:4000'
+    url: 'http://auth-service:4000'
   patients:
-    url: 'http://127.0.0.1:8005'
+    url: 'http://patient-service:8005'
   consultations:
-    url: 'http://127.0.0.1:8003'
+    url: 'http://consultation-service:8003'
   prescriptions:
-    url: 'http://127.0.0.1:8004'
+    url: 'http://prescription-service:8004'
   appointments:
-    url: 'http://127.0.0.1:3001'
+    url: 'http://appointment-service:3001'
 
 policies:
   - basic-auth

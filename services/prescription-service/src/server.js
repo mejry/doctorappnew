@@ -18,6 +18,18 @@ const PORT = process.env.PORT || 8004;
 
 // Middleware
 app.use(express.json());
+
+const healthHandler = (req, res) => {
+  res.status(200).json({
+    service: "prescription-service",
+    status: "healthy",
+    timestamp: new Date(),
+  });
+};
+
+app.get("/health", healthHandler);
+app.get("/api/health", healthHandler);
+
 app.use("/api/medications", medicationRoutes);
 // Routes
 app.use("/api/prescriptions", prescriptionRoutes);

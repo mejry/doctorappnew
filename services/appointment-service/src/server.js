@@ -1,6 +1,5 @@
 // appointment-service/src/server.js
 const express = require('express');
-
 const cron = require('node-cron');
 const config = require('./config/config');
 const logger = require('./config/logger');
@@ -64,13 +63,16 @@ app.use('/api/appointments', appointmentRoutes);
 app.use('/api/waiting-room', waitingRoomRoutes);
 
 // Health check endpoint
-app.get('/health', (req, res) => {
+const healthHandler = (req, res) => {
   res.status(200).json({
     service: 'appointment-service',
     status: 'healthy',
     timestamp: new Date()
   });
-});
+};
+
+app.get('/health', healthHandler);
+app.get('/api/health', healthHandler);
 
 // Error handling middleware
 app.use((err, req, res, next) => {

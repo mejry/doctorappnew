@@ -1,151 +1,33 @@
-name: Treanos CI/CD Pipeline
+name: Doctor App Pipeline
 
 on:
   push:
     branches:
       - main
       - develop
-
   pull_request:
     branches:
       - main
-
-env:
-  NODE_VERSION: 22
+  workflow_dispatch:
 
 jobs:
-
-  backend-checks:
-    name: Backend Quality Checks
+  validate-only:
+    name: Validate project without VPS deploy
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: backend
-
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-
-      - name: Install Dependencies
-        run: npm ci --legacy-peer-deps
-
-      - name: Lint
-        run: npm run lint --if-present || true
-
-      - name: Run Tests
-        run: npm test --if-present
-
-      - name: Build Backend
-        run: npm run build --if-present
-
-  frontend-checks:
-    name: Frontend Quality Checks
-    runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: front
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-
-      - name: Install Dependencies
-        run: npm ci
-
-      - name: Lint
-        run: npm run lint --if-present || true
-
-      - name: Build Frontend
-        run: npm run build
-
-  docker-validation:
-    name: Docker Compose Validation
-    runs-on: ubuntu-latest
-
-    needs:
-      - backend-checks
-      - frontend-checks
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Validate Docker Compose
-        run: docker compose -f docker-compose.prod.yml config
-
-      - name: Build Docker Images
-        run: docker compose -f docker-compose.prod.yml build
-
-  deploy-production:
-    name: Deploy MAivita Production
-    runs-on: ubuntu-latest
-
-    needs:
-      - docker-validation
-
-    steps:
-      - name: 🚚 Récupérer le code
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: 📦 Compresser les fichiers du projet
+      - name: Check project structure
         run: |
-          tar -czf /tmp/deploy.tar.gz \
-            --exclude='.git' \
-            --exclude='node_modules' \
-            --exclude='front/node_modules' \
-            --exclude='backend/node_modules' \
-            .
-          mv /tmp/deploy.tar.gz ./deploy.tar.gz
+          test -d frontend
+          test -d services
+          test -d nginx
+          test -f docker-compose.yml
 
-      - name: 📤 Envoyer les fichiers sur le serveur (SCP)
-        uses: appleboy/scp-action@v0.1.4
-        with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
-          password: ${{ secrets.VPS_PASSWORD }}
-          port: 22
-          source: "deploy.tar.gz"
-          target: "/tmp"
+      - name: Validate Docker Compose
+        run: docker compose -f docker-compose.yml config
 
-      - name: ⚙️ Installer et démarrer l'application
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
-          password: ${{ secrets.VPS_PASSWORD }}
-          port: 22
-          script: |
-            echo "🚀 Début du déploiement Maivita..."
-            mkdir -p /opt/maivita
-            cd /opt/maivita
-
-            # Création du fichier .env de base s'il n'existe pas
-            if [ ! -f ".env" ]; then
-              echo "Création d'un .env vide (à configurer manuellement)"
-              touch .env
-            fi
-
-            # 0. Lancer un backup de sécurité avant toute modification
-            bash ./scripts/backup.sh || true
-
-            # 1. Extraire les nouveaux fichiers
-            tar -xzf /tmp/deploy.tar.gz
-            rm -f /tmp/deploy.tar.gz
-
-            # 2. Build de la nouvelle version
-            docker compose -f docker-compose.prod.yml build
-
-            # 3. Redémarrage rapide de l'application
-            docker compose -f docker-compose.prod.yml up -d
-
-            # 4. Nettoyage de l'espace disque
-            docker image prune -af
-            docker container prune -f
-            echo "✅ Déploiement terminé avec succès !"
+      - name: Pipeline success
+        run: echo "Pipeline completed successfully. No VPS deploy, SCP, SSH, or push step was executed."

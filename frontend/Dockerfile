@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------
 
 # ---- Build stage ----
-FROM cirrusci/flutter:stable AS builder
+FROM ghcr.io/cirruslabs/flutter:3.22.3 AS builder
 WORKDIR /app
 
 # Copy the entire Flutter project
