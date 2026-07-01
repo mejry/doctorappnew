@@ -57,6 +57,7 @@ class _DashboardContentState extends State<DashboardContent> {
       SessionPermissions(_sessionManager).canCreateConsultation;
   bool get _canViewMedications =>
       SessionPermissions(_sessionManager).canViewMedications;
+  String get _displayName => widget.user.fullName;
 
   @override
   void initState() {
@@ -94,12 +95,12 @@ class _DashboardContentState extends State<DashboardContent> {
         return 'Nurse ${widget.user.lastname}';
       case 'secretary':
       case 'secrétaire':
-        return '${widget.user.firstname} ${widget.user.lastname}';
+        return _displayName;
       case 'admin':
       case 'administrator':
-        return 'Admin ${widget.user.lastname}';
+        return 'Admin $_displayName';
       default:
-        return '${widget.user.firstname} ${widget.user.lastname}';
+        return _displayName;
     }
   }
 
@@ -128,12 +129,12 @@ class _DashboardContentState extends State<DashboardContent> {
         return '$timeGreeting Nurse ${widget.user.lastname}';
       case 'secretary':
       case 'secrétaire':
-        return '$timeGreeting ${widget.user.firstname}';
+        return '$timeGreeting $_displayName';
       case 'admin':
       case 'administrator':
-        return '$timeGreeting Admin ${widget.user.lastname}';
+        return '$timeGreeting Admin $_displayName';
       default:
-        return '$timeGreeting ${widget.user.firstname}';
+        return '$timeGreeting $_displayName';
     }
   }
 

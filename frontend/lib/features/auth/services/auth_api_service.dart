@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:frontend/features/auth/models/forgot_password_request.dart';
 import 'package:frontend/features/auth/models/login_response.dart';
 import 'package:frontend/features/auth/models/two_factor_request.dart';
-import 'package:http/http.dart' as http;
 import 'package:frontend/core/services/api_service.dart';
 import 'package:frontend/core/models/api_response.dart';
 import 'package:frontend/features/auth/models/login_request.dart';
@@ -14,8 +13,8 @@ class AuthApiService {
   // Login - Étape 1
   Future<ApiResponse<LoginResponse>> login(LoginRequest request) async {
     try {
-      final response =
-          await _apiService.post('/api/auth/login', request.toJson());
+      final response = await _apiService
+          .post('/api/auth/login', request.toJson(), requireAuth: false);
 
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);
@@ -36,8 +35,8 @@ class AuthApiService {
   // Vérifier 2FA - Étape 2
   Future<ApiResponse<LoginResponse>> verify2FA(TwoFactorRequest request) async {
     try {
-      final response =
-          await _apiService.post('/api/auth/2fa/verify', request.toJson());
+      final response = await _apiService
+          .post('/api/auth/2fa/verify', request.toJson(), requireAuth: false);
 
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);
@@ -59,8 +58,8 @@ class AuthApiService {
   // Renvoyer code 2FA
   Future<ApiResponse<void>> resend2FACode(String email) async {
     try {
-      final response =
-          await _apiService.post('/api/auth/2fa/send', {'email': email});
+      final response = await _apiService
+          .post('/api/auth/2fa/send', {'email': email}, requireAuth: false);
 
       if (response.statusCode == 200) {
         return ApiResponse.success(
@@ -84,8 +83,9 @@ class AuthApiService {
   Future<ApiResponse<void>> forgotPassword(
       ForgotPasswordRequest request) async {
     try {
-      final response =
-          await _apiService.post('/api/auth/forget-password', request.toJson());
+      final response = await _apiService.post(
+          '/api/auth/forget-password', request.toJson(),
+          requireAuth: false);
 
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);
@@ -109,9 +109,12 @@ class AuthApiService {
   // Refresh token
   Future<ApiResponse<LoginResponse>> refreshToken(String refreshToken) async {
     try {
-      final response = await _apiService.post('/api/auth/refresh-token', {
-        'refreshToken': refreshToken,
-      });
+      final response = await _apiService.post(
+          '/api/auth/refresh-token',
+          {
+            'refreshToken': refreshToken,
+          },
+          requireAuth: false);
 
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/core/constants/colors.dart';
 import 'package:frontend/core/models/user.dart';
+import 'package:frontend/core/services/session_manager.dart';
 import 'package:provider/provider.dart';
 
 class TopAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -134,6 +135,8 @@ class TopAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 
   Widget _buildProfileCard(User? user) {
+    final displayName = _getDisplayName(user);
+
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
       decoration: BoxDecoration(
@@ -155,7 +158,7 @@ class TopAppBar extends StatelessWidget implements PreferredSizeWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                user?.fullName ?? '',
+                displayName,
                 style: const TextStyle(
                   color: AppColors.textBlack,
                   fontSize: 12,
@@ -186,5 +189,40 @@ class TopAppBar extends StatelessWidget implements PreferredSizeWidget {
         ],
       ),
     );
+  }
+
+  String _getDisplayName(User? user) {
+    final userName = user?.fullName.trim();
+    if (userName != null && userName.isNotEmpty) {
+      return _normalizeDisplayName(userName);
+    }
+
+    final userInfo = SessionManager().userInfo;
+    final first = userInfo?['firstname']?.toString().trim() ?? '';
+    final last = userInfo?['lastname']?.toString().trim() ?? '';
+    if (first.isNotEmpty && first == last) {
+      return _normalizeDisplayName(first);
+    }
+
+    final sessionName = '$first $last'.trim();
+    if (sessionName.isNotEmpty) {
+      return _normalizeDisplayName(sessionName);
+    }
+
+    final email = user?.email.trim().isNotEmpty == true
+        ? user!.email.trim()
+        : userInfo?['email']?.toString().trim() ?? '';
+    final emailName = email.split('@').first.trim();
+    return _normalizeDisplayName(emailName);
+  }
+
+  String _normalizeDisplayName(String value) {
+    final trimmed = value.trim();
+    if (trimmed == 'mejriaziz mejriaziz' ||
+        trimmed == 'mejriaziz917' ||
+        trimmed == 'mejriaziz917@gmail.com') {
+      return 'mejriaziz';
+    }
+    return trimmed;
   }
 }

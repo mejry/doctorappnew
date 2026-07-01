@@ -43,7 +43,21 @@ class User {
     this.specialite,
   });
 
-  String get fullName => '$firstname $lastname';
+  String get fullName {
+    final first = firstname.trim();
+    final last = lastname.trim();
+    if (first.isNotEmpty && first == last) {
+      return first;
+    }
+
+    final name = '$first $last'.trim();
+    if (name.isNotEmpty) {
+      return name;
+    }
+
+    final emailName = email.split('@').first.trim();
+    return emailName.isNotEmpty ? emailName : email;
+  }
 
   // ✅ Méthode pour vérifier si l'utilisateur a une permission
   bool hasPermission(String permission) {

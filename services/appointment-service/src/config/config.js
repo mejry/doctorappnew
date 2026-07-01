@@ -26,6 +26,8 @@ module.exports = {
   
   jwt: {
     serviceSecret: process.env.JWT_SERVICE_SECRET || 'jhfduzeajhdsqygiaz',
+    accessSecret: process.env.JWT_ACCESS_SECRET || 'azerdqskfuiqaqlkeza',
+    refreshSecret: process.env.JWT_REFRESH_SECRET || 'aeziugizfodabnzeyiad',
     algorithm: 'HS256',
     expiresIn: '1h'
   },

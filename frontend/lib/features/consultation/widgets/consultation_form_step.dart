@@ -67,12 +67,14 @@ class _ConsultationFormStepState extends State<ConsultationFormStep> {
       _patientSearchController.text =
           _formatPatientName(widget.selectedPatient!.fullName);
     }
-    
+
     if (widget.prefilledAppointment != null) {
-      _consultationType = widget.prefilledAppointment!.type;
+      _consultationType =
+          _normalizeConsultationType(widget.prefilledAppointment!.type);
       _consultationDate = widget.prefilledAppointment!.date;
       _isEmergency = _consultationType == 'Emergency';
-      if (_selectedPatient == null && widget.prefilledAppointment!.patientId != null) {
+      if (_selectedPatient == null &&
+          widget.prefilledAppointment!.patientId != null) {
         _loadPrefilledPatient(widget.prefilledAppointment!.patientId!);
       }
     }
@@ -191,8 +193,8 @@ class _ConsultationFormStepState extends State<ConsultationFormStep> {
       patientId: _selectedPatient!.id!,
       date: _consultationDate,
       time: formattedTime,
-      type: _consultationType!,
-      status: _consultationStatus!,
+      type: _normalizeConsultationType(_consultationType!),
+      status: _normalizeConsultationStatus(_consultationStatus!),
       symptoms: _symptoms,
       diagnosis: _diagnoses,
       prescribedAnalyses: _prescribedAnalyses,
@@ -204,6 +206,14 @@ class _ConsultationFormStepState extends State<ConsultationFormStep> {
     );
 
     widget.onNext(consultation, _selectedPatient!);
+  }
+
+  String _normalizeConsultationType(String type) {
+    return type == 'Check-up' ? 'Bilan' : type;
+  }
+
+  String _normalizeConsultationStatus(String status) {
+    return status == 'In Progress' ? 'InProgress' : status;
   }
 
   /// Formate le nom du patient pour un affichage compact
@@ -589,7 +599,7 @@ class _ConsultationFormStepState extends State<ConsultationFormStep> {
                 isDense: true,
                 dropdownColor: Colors.white, // 🔧 FOND DROPDOWN BLANC
                 items: const [
-                  'Check-up',
+                  'Bilan',
                   'Test',
                   'Consultation',
                   'Control',
@@ -632,7 +642,7 @@ class _ConsultationFormStepState extends State<ConsultationFormStep> {
                   'Scheduled',
                   'Canceled',
                   'Waiting',
-                  'In Progress'
+                  'InProgress'
                 ]
                     .map((status) => DropdownMenuItem(
                           value: status,

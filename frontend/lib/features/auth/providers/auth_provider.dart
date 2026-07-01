@@ -76,7 +76,7 @@ class AuthProvider with ChangeNotifier {
         _user = User(
           id: userInfo['id'] ?? '',
           email: userInfo['email'] ?? '',
-          firstname: userInfo['firstname'] ?? '',
+          firstname: userInfo['firstname'] ?? userInfo['email'] ?? '',
           lastname: userInfo['lastname'] ?? '',
           role: userInfo['role'] ?? '',
           allPermissions: _sessionManager.permissions,

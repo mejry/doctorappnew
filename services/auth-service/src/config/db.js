@@ -143,8 +143,8 @@ const initializeRolesAndAdmin = async () => {
       //const hashedPassword = await bcrypt.hash(defaultPassword, 10);
 
       const adminUser = new User({
-        firstname: 'roua',
-        lastname: 'youneb',
+        firstname: 'mejriaziz',
+        lastname: 'mejriaziz',
         email: adminEmail,
         password: defaultPassword,
         role: adminRole._id,

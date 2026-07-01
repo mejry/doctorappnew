@@ -50,7 +50,7 @@ class _ConsultationStepState extends State<ConsultationStep> {
 
   // Options
   final List<String> _consultationTypes = [
-    'Check-up',
+    'Bilan',
     'Test',
     'Consultation',
     'Control',
@@ -63,7 +63,7 @@ class _ConsultationStepState extends State<ConsultationStep> {
     'Completed',
     'Canceled',
     'Waiting',
-    'In Progress'
+    'InProgress'
   ];
 
   @override
@@ -77,8 +77,21 @@ class _ConsultationStepState extends State<ConsultationStep> {
   void didChangeDependencies() {
     super.didChangeDependencies();
     if (_timeController.text.isEmpty) {
-      _timeController.text = TimeOfDay.now().format(context);
+      _timeController.text = _formatTimeOfDay(TimeOfDay.now());
     }
+  }
+
+  String _formatTimeOfDay(TimeOfDay time) {
+    return '${time.hour.toString().padLeft(2, '0')}:'
+        '${time.minute.toString().padLeft(2, '0')}';
+  }
+
+  String _normalizeConsultationType(String type) {
+    return type == 'Check-up' ? 'Bilan' : type;
+  }
+
+  String _normalizeConsultationStatus(String status) {
+    return status == 'In Progress' ? 'InProgress' : status;
   }
 
   void _selectTime() async {
@@ -89,7 +102,7 @@ class _ConsultationStepState extends State<ConsultationStep> {
 
     if (pickedTime != null) {
       setState(() {
-        _timeController.text = pickedTime.format(context);
+        _timeController.text = _formatTimeOfDay(pickedTime);
       });
     }
   }
@@ -164,8 +177,8 @@ class _ConsultationStepState extends State<ConsultationStep> {
     final consultationData = {
       'date': _consultationDate.toIso8601String(),
       'time': _timeController.text,
-      'type': _consultationType!,
-      'status': _consultationStatus!,
+      'type': _normalizeConsultationType(_consultationType!),
+      'status': _normalizeConsultationStatus(_consultationStatus!),
       'symptoms': _symptoms,
       'diagnosis': _diagnosis,
       'prescribedAnalyses': _prescribedAnalyses,

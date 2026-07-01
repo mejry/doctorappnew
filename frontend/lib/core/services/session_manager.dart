@@ -126,16 +126,26 @@ class SessionManager {
 
     try {
       final decodedToken = JwtDecoder.decode(_accessToken!);
+      final storedUserData = await _getStoredUserData();
+      final tokenFirstname = decodedToken['firstname']?.toString();
+      final tokenLastname = decodedToken['lastname']?.toString();
+      final tokenSpecialite = decodedToken['specialite']?.toString();
 
       // Extraire les informations utilisateur
       _userInfo = {
-        'id': decodedToken['id'] ?? decodedToken['userId'],
-        'email': decodedToken['email'],
-        'firstname': decodedToken['firstname'],
-        'lastname': decodedToken['lastname'],
-        'role': decodedToken['role'],
+        'id': decodedToken['id'] ??
+            decodedToken['userId'] ??
+            storedUserData['id'] ??
+            storedUserData['_id'],
+        'email': decodedToken['email'] ?? storedUserData['email'],
+        'firstname':
+            _firstNonEmpty(tokenFirstname, storedUserData['firstname']),
+        'lastname': _firstNonEmpty(tokenLastname, storedUserData['lastname']),
+        'role':
+            decodedToken['role'] ?? _extractRoleName(storedUserData['role']),
         'permissions': decodedToken['permissions'] ?? [],
-        'specialite': decodedToken['specialite'],
+        'specialite':
+            _firstNonEmpty(tokenSpecialite, storedUserData['specialite']),
       };
 
       // Extraire les permissions
@@ -150,6 +160,45 @@ class SessionManager {
       debugPrint('❌ Error extracting token data: $e');
       throw Exception('Invalid token format');
     }
+  }
+
+  Future<Map<String, dynamic>> _getStoredUserData() async {
+    final rawUserData = await _storage.getUserData();
+    if (rawUserData == null || rawUserData.isEmpty) {
+      return {};
+    }
+
+    try {
+      final decoded = jsonDecode(rawUserData);
+      if (decoded is Map<String, dynamic>) {
+        return decoded;
+      }
+    } catch (e) {
+      debugPrint('âš ï¸ Error reading stored user data: $e');
+    }
+
+    return {};
+  }
+
+  String? _firstNonEmpty(dynamic primary, dynamic fallback) {
+    final primaryValue = primary?.toString().trim();
+    if (primaryValue != null && primaryValue.isNotEmpty) {
+      return primaryValue;
+    }
+
+    final fallbackValue = fallback?.toString().trim();
+    if (fallbackValue != null && fallbackValue.isNotEmpty) {
+      return fallbackValue;
+    }
+
+    return null;
+  }
+
+  String? _extractRoleName(dynamic role) {
+    if (role is Map<String, dynamic>) {
+      return role['name']?.toString();
+    }
+    return role?.toString();
   }
 
   /// Configure le refresh automatique du token

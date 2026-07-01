@@ -2,6 +2,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
+import 'package:frontend/core/services/storage_service.dart';
 
 class ApiService {
   static const String _fallbackBaseUrl = 'http://localhost:8090';
@@ -14,6 +15,7 @@ class ApiService {
   String? _accessToken;
   // ignore: unused_field
   String? _refreshToken;
+  final StorageService _storage = StorageService();
 
   void setTokens(String accessToken, String refreshToken) {
     _accessToken = accessToken;
@@ -34,6 +36,19 @@ class ApiService {
         ..._baseHeaders,
         if (_accessToken != null) 'Authorization': 'Bearer $_accessToken',
       };
+
+  Future<Map<String, String>> _headers({required bool requireAuth}) async {
+    if (!requireAuth) {
+      return _baseHeaders;
+    }
+
+    if (_accessToken == null) {
+      _accessToken = await _storage.getToken();
+      _refreshToken = await _storage.getRefreshToken();
+    }
+
+    return _authHeaders;
+  }
 
   Uri _buildUri(String endpoint) {
     final parsedEndpoint = Uri.parse(endpoint);
@@ -63,7 +78,7 @@ class ApiService {
       final response = await http
           .get(
             uri,
-            headers: requireAuth ? _authHeaders : _baseHeaders,
+            headers: await _headers(requireAuth: requireAuth),
           )
           .timeout(_timeout);
 
@@ -83,7 +98,7 @@ class ApiService {
       final response = await http
           .post(
             url,
-            headers: requireAuth ? _authHeaders : _baseHeaders,
+            headers: await _headers(requireAuth: requireAuth),
             body: jsonEncode(data),
           )
           .timeout(_timeout);
@@ -104,7 +119,7 @@ class ApiService {
       final response = await http
           .put(
             url,
-            headers: requireAuth ? _authHeaders : _baseHeaders,
+            headers: await _headers(requireAuth: requireAuth),
             body: jsonEncode(data),
           )
           .timeout(_timeout);
@@ -125,7 +140,7 @@ class ApiService {
       final response = await http
           .delete(
             url,
-            headers: requireAuth ? _authHeaders : _baseHeaders,
+            headers: await _headers(requireAuth: requireAuth),
           )
           .timeout(_timeout);
 

@@ -543,7 +543,7 @@ class _NewConsultationScreenState extends State<NewConsultationScreen> {
                               value: _consultationType,
                               decoration: AppFormStyles.inputDecoration('Type'),
                               items: const [
-                                'Check-up',
+                                'Bilan',
                                 'Test',
                                 'Consultation',
                                 'Control',
@@ -576,7 +576,7 @@ class _NewConsultationScreenState extends State<NewConsultationScreen> {
                                 'Scheduled',
                                 'Canceled',
                                 'Waiting',
-                                'In Progress'
+                                'InProgress'
                               ].map((status) {
                                 return DropdownMenuItem(
                                   value: status,
